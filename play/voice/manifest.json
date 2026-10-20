@@ -1,0 +1,146 @@
+[
+ {
+  "id": "m_wakeup",
+  "file": "voice/m_wakeup.ogg",
+  "duration": 2.27,
+  "script": "H01",
+  "what": "깨어남 \"으… 어…\"",
+  "use": "첫 5분 0:00"
+ },
+ {
+  "id": "m_attack_1",
+  "file": "voice/m_attack_1.ogg",
+  "duration": 0.33,
+  "script": "H02_a",
+  "what": "근접 기합 \"흡!\"",
+  "use": "둔기 · 검 1타"
+ },
+ {
+  "id": "m_attack_2",
+  "file": "voice/m_attack_2.ogg",
+  "duration": 0.43,
+  "script": "H02_b",
+  "what": "근접 기합 \"하!\"",
+  "use": "2타"
+ },
+ {
+  "id": "m_attack_3",
+  "file": "voice/m_attack_3.ogg",
+  "duration": 0.31,
+  "script": "H02_c",
+  "what": "근접 기합 \"읏!\"",
+  "use": "3타(가벼운 쪽)"
+ },
+ {
+  "id": "m_heavy",
+  "file": "voice/m_heavy.ogg",
+  "duration": 0.69,
+  "script": "H03",
+  "what": "큰 한 방 \"얍!\"",
+  "use": "3연타 마지막"
+ },
+ {
+  "id": "m_hurt_1",
+  "file": "voice/m_hurt_1.ogg",
+  "duration": 0.42,
+  "script": "H04_a",
+  "what": "피격 \"윽\"",
+  "use": "가벼운 피격"
+ },
+ {
+  "id": "m_hurt_2",
+  "file": "voice/m_hurt_2.ogg",
+  "duration": 0.34,
+  "script": "H04_b",
+  "what": "피격 \"큭\"",
+  "use": "가벼운 피격"
+ },
+ {
+  "id": "m_hurt_big",
+  "file": "voice/m_hurt_big.ogg",
+  "duration": 1.04,
+  "script": "H05",
+  "what": "큰 피격 \"으아악!\"",
+  "use": "체력 30% 아래 피격"
+ },
+ {
+  "id": "m_roll",
+  "file": "voice/m_roll.ogg",
+  "duration": 0.32,
+  "script": "H06",
+  "what": "구르기 \"흣!\"",
+  "use": "구르기"
+ },
+ {
+  "id": "m_death",
+  "file": "voice/m_death.ogg",
+  "duration": 2.17,
+  "script": "H07",
+  "what": "사망 \"아… 안 돼…\"",
+  "use": "쓰러짐(가방 잃을 때)"
+ },
+ {
+  "id": "m_lift",
+  "file": "voice/m_lift.ogg",
+  "duration": 1.2,
+  "script": "H08",
+  "what": "들기 \"흐읏!\"",
+  "use": "채집 마무리 · 나무 쓰러뜨림"
+ },
+ {
+  "id": "m_surprise",
+  "file": "voice/m_surprise.ogg",
+  "duration": 0.43,
+  "script": "H09",
+  "what": "작은 놀람 \"어?\"",
+  "use": "성벽 조각 · 첫 째깍돌"
+ },
+ {
+  "id": "m_surprise_big",
+  "file": "voice/m_surprise_big.ogg",
+  "duration": 1.58,
+  "script": "H10",
+  "what": "큰 놀람 \"뭐야…\"",
+  "use": "네온 간판 처음"
+ },
+ {
+  "id": "m_relief",
+  "file": "voice/m_relief.ogg",
+  "duration": 0.49,
+  "script": "H11",
+  "what": "안도 \"후우…\"",
+  "use": "쉘터 귀환 · 수면 전"
+ },
+ {
+  "id": "m_hungry",
+  "file": "voice/m_hungry.ogg",
+  "duration": 2.52,
+  "script": "H12",
+  "what": "허기 \"배고파…\"",
+  "use": "허기 30% 아래(가끔)"
+ },
+ {
+  "id": "m_cold",
+  "file": "voice/m_cold.ogg",
+  "duration": 3.05,
+  "script": "H13",
+  "what": "추위 \"으으… 춥다\"",
+  "use": "호수(나중 맵)"
+ },
+ {
+  "id": "m_run_breath",
+  "file": "voice/m_run_breath.ogg",
+  "duration": 3.92,
+  "script": "H14",
+  "what": "달리기 숨 \"하, 하, 하\"",
+  "use": "10초 루프용"
+ },
+ {
+  "id": "m_eat_hot",
+  "file": "voice/m_eat_hot.ogg",
+  "duration": 3.62,
+  "script": "H15",
+  "what": "뜨거운 것 \"아 뜨거워\"",
+  "use": "구운 고기 먹기"
+ }
+]

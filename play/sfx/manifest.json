@@ -1,0 +1,1072 @@
+[
+  {
+    "id": "hit_blunt_1",
+    "file": "sfx/hit/hit_blunt_1.ogg",
+    "use": "둔기(몽둥이·망치) 적중 — 묵직한 쿵",
+    "category": "hit",
+    "volume": 0.8,
+    "loop": false,
+    "variants": [
+      "hit_blunt_1",
+      "hit_blunt_2"
+    ],
+    "source": "Kenney Impact Sounds",
+    "license": "CC0",
+    "author": "Kenney"
+  },
+  {
+    "id": "hit_blunt_2",
+    "file": "sfx/hit/hit_blunt_2.ogg",
+    "use": "둔기 적중 2 — 둔탁한 퍽",
+    "category": "hit",
+    "volume": 0.8,
+    "loop": false,
+    "variants": [
+      "hit_blunt_1",
+      "hit_blunt_2"
+    ],
+    "source": "Kenney Impact Sounds",
+    "license": "CC0",
+    "author": "Kenney"
+  },
+  {
+    "id": "hit_blade_1",
+    "file": "sfx/hit/hit_blade_1.ogg",
+    "use": "검 적중 — 베는 쉭+퍽",
+    "category": "hit",
+    "volume": 0.8,
+    "loop": false,
+    "variants": [
+      "hit_blade_1",
+      "hit_blade_2"
+    ],
+    "source": "Kenney RPG Audio + Kenney Impact Sounds",
+    "license": "CC0",
+    "author": "Kenney"
+  },
+  {
+    "id": "hit_blade_2",
+    "file": "sfx/hit/hit_blade_2.ogg",
+    "use": "검 적중 2 — 휘두름 끝 베기",
+    "category": "hit",
+    "volume": 0.8,
+    "loop": false,
+    "variants": [
+      "hit_blade_1",
+      "hit_blade_2"
+    ],
+    "source": "https://opengameart.org/content/medieval-sound-effects-weapon-textures + Kenney RPG Audio + Kenney Impact Sounds",
+    "license": "CC0",
+    "author": "medicinestorm, Kenney"
+  },
+  {
+    "id": "hit_spear_1",
+    "file": "sfx/hit/hit_spear_1.ogg",
+    "use": "창 적중 — 찌르는 푹",
+    "category": "hit",
+    "volume": 0.8,
+    "loop": false,
+    "variants": [
+      "hit_spear_1",
+      "hit_spear_2"
+    ],
+    "source": "https://opengameart.org/content/medieval-sound-effects-weapon-textures + Kenney Impact Sounds + Kenney RPG Audio",
+    "license": "CC0",
+    "author": "medicinestorm, Kenney"
+  },
+  {
+    "id": "hit_spear_2",
+    "file": "sfx/hit/hit_spear_2.ogg",
+    "use": "창 적중 2 — 깊게 박히는 퍽",
+    "category": "hit",
+    "volume": 0.8,
+    "loop": false,
+    "variants": [
+      "hit_spear_1",
+      "hit_spear_2"
+    ],
+    "source": "https://opengameart.org/content/medieval-sound-effects-weapon-textures + Kenney Impact Sounds",
+    "license": "CC0",
+    "author": "medicinestorm, Kenney"
+  },
+  {
+    "id": "gun_pistol_1",
+    "file": "sfx/gun/gun_pistol_1.ogg",
+    "use": "권총 발사",
+    "category": "gun",
+    "volume": 0.75,
+    "loop": false,
+    "variants": [
+      "gun_pistol_1",
+      "gun_pistol_2"
+    ],
+    "source": "https://opengameart.org/content/gunshots + Kenney Impact Sounds",
+    "license": "CC0",
+    "author": "kurt, Kenney"
+  },
+  {
+    "id": "gun_pistol_2",
+    "file": "sfx/gun/gun_pistol_2.ogg",
+    "use": "권총 발사 2",
+    "category": "gun",
+    "volume": 0.75,
+    "loop": false,
+    "variants": [
+      "gun_pistol_1",
+      "gun_pistol_2"
+    ],
+    "source": "https://opengameart.org/content/gunshot-sound-effect + https://opengameart.org/content/gunshots",
+    "license": "CC0",
+    "author": "hingydunyas, kurt"
+  },
+  {
+    "id": "gun_shotgun",
+    "file": "sfx/gun/gun_shotgun.ogg",
+    "use": "샷건 발사 — 장난감 같은 펑",
+    "category": "gun",
+    "volume": 0.8,
+    "loop": false,
+    "source": "https://opengameart.org/content/toy-double-barrel-shotgun-sounds + https://opengameart.org/content/gunshots + Kenney Impact Sounds",
+    "license": "CC0",
+    "author": "jumbosizedfish, kurt, Kenney"
+  },
+  {
+    "id": "gun_crossbow",
+    "file": "sfx/gun/gun_crossbow.ogg",
+    "use": "석궁 발사 — 툭+슝",
+    "category": "gun",
+    "volume": 0.7,
+    "loop": false,
+    "source": "https://opengameart.org/content/medieval-sound-effects-weapon-textures + Kenney Impact Sounds",
+    "license": "CC0",
+    "author": "medicinestorm, Kenney"
+  },
+  {
+    "id": "hurt_human_1",
+    "file": "sfx/hurt/hurt_human_1.ogg",
+    "use": "플레이어/사람 피격 — 짧은 윽",
+    "category": "hurt",
+    "volume": 0.7,
+    "loop": false,
+    "variants": [
+      "hurt_human_1",
+      "hurt_human_2"
+    ],
+    "source": "https://opengameart.org/content/15-vocal-male-strainhurtpainjump-sounds + Kenney Impact Sounds",
+    "license": "CC0",
+    "author": "qubodup, Kenney"
+  },
+  {
+    "id": "hurt_human_2",
+    "file": "sfx/hurt/hurt_human_2.ogg",
+    "use": "플레이어/사람 피격 2",
+    "category": "hurt",
+    "volume": 0.7,
+    "loop": false,
+    "variants": [
+      "hurt_human_1",
+      "hurt_human_2"
+    ],
+    "source": "https://opengameart.org/content/15-vocal-male-strainhurtpainjump-sounds + Kenney Impact Sounds",
+    "license": "CC0",
+    "author": "qubodup, Kenney"
+  },
+  {
+    "id": "hurt_skeleton_1",
+    "file": "sfx/hurt/hurt_skeleton_1.ogg",
+    "use": "해골 피격 — 뼈 덜그럭",
+    "category": "hurt",
+    "volume": 0.75,
+    "loop": false,
+    "variants": [
+      "hurt_skeleton_1",
+      "hurt_skeleton_2"
+    ],
+    "source": "https://opengameart.org/content/bones-2 + Kenney Impact Sounds",
+    "license": "CC0",
+    "author": "antumdeluge, Kenney"
+  },
+  {
+    "id": "hurt_skeleton_2",
+    "file": "sfx/hurt/hurt_skeleton_2.ogg",
+    "use": "해골 피격 2 — 뼈 부딪힘",
+    "category": "hurt",
+    "volume": 0.75,
+    "loop": false,
+    "variants": [
+      "hurt_skeleton_1",
+      "hurt_skeleton_2"
+    ],
+    "source": "https://opengameart.org/content/bones-rattle + Kenney Impact Sounds",
+    "license": "CC0",
+    "author": "congusbongus, Kenney"
+  },
+  {
+    "id": "hurt_robot_1",
+    "file": "sfx/hurt/hurt_robot_1.ogg",
+    "use": "로봇 피격 — 둔한 금속 쾅",
+    "category": "hurt",
+    "volume": 0.75,
+    "loop": false,
+    "variants": [
+      "hurt_robot_1",
+      "hurt_robot_2"
+    ],
+    "source": "Kenney Impact Sounds",
+    "license": "CC0",
+    "author": "Kenney"
+  },
+  {
+    "id": "hurt_robot_2",
+    "file": "sfx/hurt/hurt_robot_2.ogg",
+    "use": "로봇 피격 2 — 깡통 텅",
+    "category": "hurt",
+    "volume": 0.75,
+    "loop": false,
+    "variants": [
+      "hurt_robot_1",
+      "hurt_robot_2"
+    ],
+    "source": "Kenney Impact Sounds",
+    "license": "CC0",
+    "author": "Kenney"
+  },
+  {
+    "id": "hurt_dino_1",
+    "file": "sfx/hurt/hurt_dino_1.ogg",
+    "use": "공룡 피격 — 그르렁+쿵",
+    "category": "hurt",
+    "volume": 0.8,
+    "loop": false,
+    "variants": [
+      "hurt_dino_1",
+      "hurt_dino_2"
+    ],
+    "source": "https://opengameart.org/content/80-cc0-creature-sfx + Kenney Impact Sounds",
+    "license": "CC0",
+    "author": "rubberduck, Kenney"
+  },
+  {
+    "id": "hurt_dino_2",
+    "file": "sfx/hurt/hurt_dino_2.ogg",
+    "use": "공룡 피격 2 — 짧은 포효",
+    "category": "hurt",
+    "volume": 0.8,
+    "loop": false,
+    "variants": [
+      "hurt_dino_1",
+      "hurt_dino_2"
+    ],
+    "source": "https://opengameart.org/content/t-rex-calls + Kenney Impact Sounds",
+    "license": "CC0",
+    "author": "caveboytup, Kenney"
+  },
+  {
+    "id": "step_dirt_1",
+    "file": "sfx/step/step_dirt_1.ogg",
+    "use": "발소리 — 흙길",
+    "category": "step",
+    "volume": 0.35,
+    "loop": false,
+    "variants": [
+      "step_dirt_1",
+      "step_dirt_2"
+    ],
+    "source": "Kenney RPG Audio",
+    "license": "CC0",
+    "author": "Kenney"
+  },
+  {
+    "id": "step_dirt_2",
+    "file": "sfx/step/step_dirt_2.ogg",
+    "use": "발소리 — 흙길 2",
+    "category": "step",
+    "volume": 0.35,
+    "loop": false,
+    "variants": [
+      "step_dirt_1",
+      "step_dirt_2"
+    ],
+    "source": "Kenney RPG Audio",
+    "license": "CC0",
+    "author": "Kenney"
+  },
+  {
+    "id": "step_grass_1",
+    "file": "sfx/step/step_grass_1.ogg",
+    "use": "발소리 — 풀밭",
+    "category": "step",
+    "volume": 0.35,
+    "loop": false,
+    "variants": [
+      "step_grass_1",
+      "step_grass_2"
+    ],
+    "source": "Kenney Impact Sounds",
+    "license": "CC0",
+    "author": "Kenney"
+  },
+  {
+    "id": "step_grass_2",
+    "file": "sfx/step/step_grass_2.ogg",
+    "use": "발소리 — 풀밭 2",
+    "category": "step",
+    "volume": 0.35,
+    "loop": false,
+    "variants": [
+      "step_grass_1",
+      "step_grass_2"
+    ],
+    "source": "Kenney Impact Sounds",
+    "license": "CC0",
+    "author": "Kenney"
+  },
+  {
+    "id": "step_stone_1",
+    "file": "sfx/step/step_stone_1.ogg",
+    "use": "발소리 — 돌바닥(거친 돌·자갈)",
+    "category": "step",
+    "volume": 0.35,
+    "loop": false,
+    "variants": [
+      "step_stone_1",
+      "step_stone_2"
+    ],
+    "source": "https://opengameart.org/content/fantozzis-footsteps-grasssand-stone",
+    "license": "CC0",
+    "author": "qubodup"
+  },
+  {
+    "id": "step_stone_2",
+    "file": "sfx/step/step_stone_2.ogg",
+    "use": "발소리 — 돌바닥 2",
+    "category": "step",
+    "volume": 0.35,
+    "loop": false,
+    "variants": [
+      "step_stone_1",
+      "step_stone_2"
+    ],
+    "source": "https://opengameart.org/content/fantozzis-footsteps-grasssand-stone",
+    "license": "CC0",
+    "author": "qubodup"
+  },
+  {
+    "id": "step_tile_1",
+    "file": "sfx/step/step_tile_1.ogg",
+    "use": "발소리 — 타일(쉘터·마을 실내)",
+    "category": "step",
+    "volume": 0.35,
+    "loop": false,
+    "variants": [
+      "step_tile_1",
+      "step_tile_2"
+    ],
+    "source": "Kenney Impact Sounds",
+    "license": "CC0",
+    "author": "Kenney"
+  },
+  {
+    "id": "step_tile_2",
+    "file": "sfx/step/step_tile_2.ogg",
+    "use": "발소리 — 타일 2",
+    "category": "step",
+    "volume": 0.35,
+    "loop": false,
+    "variants": [
+      "step_tile_1",
+      "step_tile_2"
+    ],
+    "source": "Kenney Impact Sounds",
+    "license": "CC0",
+    "author": "Kenney"
+  },
+  {
+    "id": "gather_wood",
+    "file": "sfx/gather/gather_wood.ogg",
+    "use": "나무 채집 — 도끼 찍기",
+    "category": "gather",
+    "volume": 0.7,
+    "loop": false,
+    "source": "Kenney RPG Audio + Kenney Impact Sounds",
+    "license": "CC0",
+    "author": "Kenney"
+  },
+  {
+    "id": "gather_stone",
+    "file": "sfx/gather/gather_stone.ogg",
+    "use": "돌 채집 — 곡괭이로 바위 깡",
+    "category": "gather",
+    "volume": 0.7,
+    "loop": false,
+    "source": "Kenney Impact Sounds",
+    "license": "CC0",
+    "author": "Kenney"
+  },
+  {
+    "id": "gather_bone",
+    "file": "sfx/gather/gather_bone.ogg",
+    "use": "뼈 채집 — 뼈 줍기 달그락",
+    "category": "gather",
+    "volume": 0.65,
+    "loop": false,
+    "source": "https://opengameart.org/content/bones-rattle",
+    "license": "CC0",
+    "author": "congusbongus"
+  },
+  {
+    "id": "gather_herb",
+    "file": "sfx/gather/gather_herb.ogg",
+    "use": "약초 채집 — 잎 바스락+톡",
+    "category": "gather",
+    "volume": 0.6,
+    "loop": false,
+    "source": "https://opengameart.org/content/20-rustles-dry-leaves + Kenney Interface Sounds",
+    "license": "CC0",
+    "author": "qubodup, Kenney"
+  },
+  {
+    "id": "ui_tap",
+    "file": "sfx/ui/ui_tap.ogg",
+    "use": "버튼 탭(기본 클릭)",
+    "category": "ui",
+    "volume": 0.5,
+    "loop": false,
+    "source": "Kenney Interface Sounds",
+    "license": "CC0",
+    "author": "Kenney"
+  },
+  {
+    "id": "ui_open",
+    "file": "sfx/ui/ui_open.ogg",
+    "use": "창 열기(가방·제작·지도) — 가죽 펄럭",
+    "category": "ui",
+    "volume": 0.5,
+    "loop": false,
+    "source": "Kenney RPG Audio",
+    "license": "CC0",
+    "author": "Kenney"
+  },
+  {
+    "id": "ui_close",
+    "file": "sfx/ui/ui_close.ogg",
+    "use": "창 닫기 — 책 덮는 툭",
+    "category": "ui",
+    "volume": 0.5,
+    "loop": false,
+    "source": "Kenney RPG Audio",
+    "license": "CC0",
+    "author": "Kenney"
+  },
+  {
+    "id": "ui_craft",
+    "file": "sfx/ui/ui_craft.ogg",
+    "use": "제작 완료 — 뚝딱+띵",
+    "category": "ui",
+    "volume": 0.6,
+    "loop": false,
+    "source": "Kenney Impact Sounds + Kenney Interface Sounds",
+    "license": "CC0",
+    "author": "Kenney"
+  },
+  {
+    "id": "loot_g1",
+    "file": "sfx/loot/loot_g1.ogg",
+    "use": "아이템 획득 — 1~2등급(작게 톡)",
+    "category": "loot",
+    "volume": 0.45,
+    "loop": false,
+    "source": "Kenney Interface Sounds",
+    "license": "CC0",
+    "author": "Kenney"
+  },
+  {
+    "id": "loot_g3",
+    "file": "sfx/loot/loot_g3.ogg",
+    "use": "아이템 획득 — 3등급(밝은 딩)",
+    "category": "loot",
+    "volume": 0.5,
+    "loop": false,
+    "source": "Kenney Interface Sounds",
+    "license": "CC0",
+    "author": "Kenney"
+  },
+  {
+    "id": "loot_g4",
+    "file": "sfx/loot/loot_g4.ogg",
+    "use": "아이템 획득 — 4등급(차임 2단)",
+    "category": "loot",
+    "volume": 0.55,
+    "loop": false,
+    "source": "Kenney Interface Sounds + https://opengameart.org/content/pleasing-bell-sound-effect",
+    "license": "CC0",
+    "author": "Kenney, spring-spring"
+  },
+  {
+    "id": "loot_g5",
+    "file": "sfx/loot/loot_g5.ogg",
+    "use": "아이템 획득 — 5등급(오르는 아르페지오+큰 종)",
+    "category": "loot",
+    "volume": 0.6,
+    "loop": false,
+    "source": "Kenney Digital Audio + https://opengameart.org/content/bell-dingschimes",
+    "license": "CC0",
+    "author": "Kenney, pwl"
+  },
+  {
+    "id": "robot_talk_1",
+    "file": "sfx/robot/robot_talk_1.ogg",
+    "use": "로봇 한 줄 말풍선 — 반가움(삐뽀)",
+    "category": "robot",
+    "volume": 0.5,
+    "loop": false,
+    "variants": [
+      "robot_talk_1",
+      "robot_talk_2",
+      "robot_talk_3"
+    ],
+    "source": "Kenney Digital Audio",
+    "license": "CC0",
+    "author": "Kenney"
+  },
+  {
+    "id": "robot_talk_2",
+    "file": "sfx/robot/robot_talk_2.ogg",
+    "use": "로봇 한 줄 말풍선 — 설명(삐삐뽀)",
+    "category": "robot",
+    "volume": 0.5,
+    "loop": false,
+    "variants": [
+      "robot_talk_1",
+      "robot_talk_2",
+      "robot_talk_3"
+    ],
+    "source": "Kenney Digital Audio",
+    "license": "CC0",
+    "author": "Kenney"
+  },
+  {
+    "id": "robot_talk_3",
+    "file": "sfx/robot/robot_talk_3.ogg",
+    "use": "로봇 한 줄 말풍선 — 갸웃(뽀삐?)",
+    "category": "robot",
+    "volume": 0.5,
+    "loop": false,
+    "variants": [
+      "robot_talk_1",
+      "robot_talk_2",
+      "robot_talk_3"
+    ],
+    "source": "Kenney Interface Sounds + Kenney Digital Audio",
+    "license": "CC0",
+    "author": "Kenney"
+  },
+  {
+    "id": "amb_campfire",
+    "file": "sfx/amb/amb_campfire.ogg",
+    "use": "쉘터 모닥불 근처(거리 감쇠)",
+    "category": "amb",
+    "volume": 0.3,
+    "loop": true,
+    "source": "https://opengameart.org/content/fireplace-sound-loop",
+    "license": "CC0",
+    "author": "pagdev"
+  },
+  {
+    "id": "amb_night_insects",
+    "file": "sfx/amb/amb_night_insects.ogg",
+    "use": "밤 필드 벌레 소리",
+    "category": "amb",
+    "volume": 0.3,
+    "loop": true,
+    "source": "https://opengameart.org/content/crickets-ambient-noise-loopable",
+    "license": "CC0",
+    "author": "wolfgang"
+  },
+  {
+    "id": "amb_wind",
+    "file": "sfx/amb/amb_wind.ogg",
+    "use": "바람(호수·고지대·밤 공통 바닥)",
+    "category": "amb",
+    "volume": 0.3,
+    "loop": true,
+    "source": "https://opengameart.org/content/mild-wind-background-noise",
+    "license": "CC0",
+    "author": "bashar3a"
+  },
+  {
+    "id": "step_snow_1",
+    "file": "sfx/step/step_snow_1.ogg",
+    "use": "발소리 — 눈길(다져진 눈·깊은 눈)",
+    "category": "step",
+    "volume": 0.35,
+    "loop": false,
+    "variants": [
+      "step_snow_1",
+      "step_snow_2"
+    ],
+    "source": "Kenney Impact Sounds",
+    "license": "CC0",
+    "author": "Kenney"
+  },
+  {
+    "id": "step_snow_2",
+    "file": "sfx/step/step_snow_2.ogg",
+    "use": "발소리 — 눈길 2",
+    "category": "step",
+    "volume": 0.35,
+    "loop": false,
+    "variants": [
+      "step_snow_1",
+      "step_snow_2"
+    ],
+    "source": "https://opengameart.org/content/4-dry-snow-steps + Kenney Impact Sounds",
+    "license": "CC0",
+    "author": "qubodup, Kenney"
+  },
+  {
+    "id": "step_ice_1",
+    "file": "sfx/step/step_ice_1.ogg",
+    "use": "발소리 — 얼음판(단단하고 살짝 울림)",
+    "category": "step",
+    "volume": 0.35,
+    "loop": false,
+    "variants": [
+      "step_ice_1",
+      "step_ice_2"
+    ],
+    "source": "Kenney Impact Sounds",
+    "license": "CC0",
+    "author": "Kenney"
+  },
+  {
+    "id": "step_ice_2",
+    "file": "sfx/step/step_ice_2.ogg",
+    "use": "발소리 — 얼음판 2",
+    "category": "step",
+    "volume": 0.35,
+    "loop": false,
+    "variants": [
+      "step_ice_1",
+      "step_ice_2"
+    ],
+    "source": "Kenney Impact Sounds",
+    "license": "CC0",
+    "author": "Kenney"
+  },
+  {
+    "id": "ice_crack",
+    "file": "sfx/lake/ice_crack.ogg",
+    "use": "얼음에 금 감(금 간 얼음 데칼 단계가 오를 때) — 끼익+쩍",
+    "category": "lake",
+    "volume": 0.6,
+    "loop": false,
+    "source": "https://opengameart.org/content/ice-breakingshattering + https://opengameart.org/content/tree-creaking + Kenney Impact Sounds",
+    "license": "CC0",
+    "author": "ignasd, antumdeluge, Kenney"
+  },
+  {
+    "id": "ice_break",
+    "file": "sfx/lake/ice_break.ogg",
+    "use": "얼음 깨짐(빠지는 순간 / 얼음 속 보물 마지막 타) — 쩍 와장창",
+    "category": "lake",
+    "volume": 0.75,
+    "loop": false,
+    "source": "https://opengameart.org/content/ice-breakingshattering + Kenney Impact Sounds + https://opengameart.org/content/75-cc0-breaking-falling-hit-sfx",
+    "license": "CC0",
+    "author": "ignasd, Kenney, rubberduck"
+  },
+  {
+    "id": "ice_splash",
+    "file": "sfx/lake/ice_splash.ogg",
+    "use": "얼음 밑 물에 빠짐 — 풍덩+얼음 조각",
+    "category": "lake",
+    "volume": 0.75,
+    "loop": false,
+    "source": "https://opengameart.org/content/40-cc0-water-splash-slime-sfx + Kenney Impact Sounds + https://opengameart.org/content/ice-breakingshattering",
+    "license": "CC0",
+    "author": "rubberduck, Kenney, ignasd"
+  },
+  {
+    "id": "warm_in",
+    "file": "sfx/lake/warm_in.ogg",
+    "use": "불 곁 따뜻함 진입(불 반경 6m 안으로) — 화륵+따뜻한 동",
+    "category": "lake",
+    "volume": 0.45,
+    "loop": false,
+    "source": "https://opengameart.org/content/catching-fire + https://opengameart.org/content/fireplace-sound-loop + Kenney Interface Sounds",
+    "license": "CC0",
+    "author": "themightyglider, pagdev, Kenney"
+  },
+  {
+    "id": "cold_warn",
+    "file": "sfx/lake/cold_warn.ogg",
+    "use": "체온 경고(30% 아래로 처음 내려갈 때) — 부드러운 서리",
+    "category": "lake",
+    "volume": 0.45,
+    "loop": false,
+    "source": "https://opengameart.org/content/freeze-spell-0 + Kenney Interface Sounds",
+    "license": "CC0",
+    "author": "artisticdude, Kenney"
+  },
+  {
+    "id": "wolf_growl",
+    "file": "sfx/mob/wolf_growl.ogg",
+    "use": "눈늑대 으르렁(어그로 · 포위 시작)",
+    "category": "mob",
+    "volume": 0.7,
+    "loop": false,
+    "source": "https://opengameart.org/content/dog-snarl-grunt-grumble",
+    "license": "CC0",
+    "author": "qubodup"
+  },
+  {
+    "id": "wolf_howl",
+    "file": "sfx/mob/wolf_howl.ogg",
+    "use": "눈늑대 울음(무리 등장 · 30% 아래 도망)",
+    "category": "mob",
+    "volume": 0.6,
+    "loop": false,
+    "source": "https://opengameart.org/content/25-sounds-from-avalanche-minigame + https://opengameart.org/content/wolf-monster-sound",
+    "license": "CC0",
+    "author": "fvcalderan, caveboytup"
+  },
+  {
+    "id": "hurt_wolf_1",
+    "file": "sfx/hurt/hurt_wolf_1.ogg",
+    "use": "눈늑대 피격 — 깨갱",
+    "category": "hurt",
+    "volume": 0.75,
+    "loop": false,
+    "variants": [
+      "hurt_wolf_1",
+      "hurt_wolf_2"
+    ],
+    "source": "https://opengameart.org/content/80-cc0-creature-sfx + Kenney Impact Sounds",
+    "license": "CC0",
+    "author": "rubberduck, Kenney"
+  },
+  {
+    "id": "hurt_wolf_2",
+    "file": "sfx/hurt/hurt_wolf_2.ogg",
+    "use": "눈늑대 피격 2 — 낑",
+    "category": "hurt",
+    "volume": 0.75,
+    "loop": false,
+    "variants": [
+      "hurt_wolf_1",
+      "hurt_wolf_2"
+    ],
+    "source": "https://opengameart.org/content/80-cc0-creature-sfx + Kenney Impact Sounds",
+    "license": "CC0",
+    "author": "rubberduck, Kenney"
+  },
+  {
+    "id": "mammoth_trumpet",
+    "file": "sfx/mob/mammoth_trumpet.ogg",
+    "use": "매머드 울음(맞았을 때 · 돌진 예고 시작) — 낮은 금관 뿌우",
+    "category": "mob",
+    "volume": 0.75,
+    "loop": false,
+    "source": "https://opengameart.org/content/their-coming-generic-horn-sound + https://opengameart.org/content/game-over-trumpet-sfx + https://opengameart.org/content/80-cc0-creture-sfx-2",
+    "license": "CC0",
+    "author": "stumpystrust, 0new4y, rubberduck"
+  },
+  {
+    "id": "mammoth_stomp",
+    "file": "sfx/mob/mammoth_stomp.ogg",
+    "use": "매머드 발 구르기(돌진 예고) · 돌진 발걸음 — 쿵+얼음 금",
+    "category": "mob",
+    "volume": 0.8,
+    "loop": false,
+    "source": "https://opengameart.org/content/80-cc0-creture-sfx-2 + Kenney Impact Sounds + https://opengameart.org/content/ice-breakingshattering",
+    "license": "CC0",
+    "author": "rubberduck, Kenney, ignasd"
+  },
+  {
+    "id": "spider_skitter",
+    "file": "sfx/mob/spider_skitter.ogg",
+    "use": "얼음 거미 바스락(얼음 아래 그림자 이동) — 다닥다닥",
+    "category": "mob",
+    "volume": 0.5,
+    "loop": false,
+    "source": "Kenney Casino Audio + https://opengameart.org/content/20-rustles-dry-leaves",
+    "license": "CC0",
+    "author": "Kenney, qubodup"
+  },
+  {
+    "id": "spider_pop",
+    "file": "sfx/mob/spider_pop.ogg",
+    "use": "얼음 거미 튀어나옴(4m 안) — 얼음 퍽+끼익",
+    "category": "mob",
+    "volume": 0.75,
+    "loop": false,
+    "source": "Kenney Impact Sounds + https://opengameart.org/content/80-cc0-creature-sfx",
+    "license": "CC0",
+    "author": "Kenney, rubberduck"
+  },
+  {
+    "id": "amb_blizzard",
+    "file": "sfx/amb/amb_blizzard.ogg",
+    "use": "강풍(호수 ★2·★3 · 밤 · 빙하기 회차) — 휘몰아치는 눈바람",
+    "category": "amb",
+    "volume": 0.35,
+    "loop": true,
+    "source": "https://opengameart.org/content/mild-wind-background-noise + https://opengameart.org/content/wind + https://opengameart.org/content/25-sounds-from-avalanche-minigame",
+    "license": "CC0",
+    "author": "bashar3a, ignasd, fvcalderan"
+  },
+  {
+    "id": "amb_clock_tick",
+    "file": "sfx/amb/amb_clock_tick.ogg",
+    "use": "시계탑 안(1~3층 · 보스방) — 큰 진자 째깍 + 작은 톱니",
+    "category": "amb",
+    "volume": 0.3,
+    "loop": true,
+    "source": "https://opengameart.org/content/ticking-clock-0 + https://opengameart.org/content/ticking-clock + Kenney Sci-fi Sounds",
+    "license": "CC0",
+    "author": "antumdeluge, bart, Kenney"
+  },
+  {
+    "id": "golem_windup",
+    "file": "sfx/boss/golem_windup.ogg",
+    "use": "추시계 골렘 원형 내려찍기 예고(장판 켜질 때) — 태엽 감기+차오름",
+    "category": "boss",
+    "volume": 0.75,
+    "loop": false,
+    "source": "https://opengameart.org/content/clock-wind-sounds + https://opengameart.org/content/wind-hit-time-morph + Kenney RPG Audio",
+    "license": "CC0",
+    "author": "bmaczero, qubodup, Kenney"
+  },
+  {
+    "id": "golem_shockwave",
+    "file": "sfx/boss/golem_shockwave.ogg",
+    "use": "추시계 골렘 충격파(내려찍는 순간) — 쿵+둥",
+    "category": "boss",
+    "volume": 0.9,
+    "loop": false,
+    "source": "Kenney Impact Sounds + Kenney Sci-fi Sounds + https://opengameart.org/content/80-cc0-creture-sfx-2",
+    "license": "CC0",
+    "author": "Kenney, rubberduck"
+  },
+  {
+    "id": "thief_blink",
+    "file": "sfx/boss/thief_blink.ogg",
+    "use": "시간 도둑 순간이동(사라지는 자리) — 휙",
+    "category": "boss",
+    "volume": 0.6,
+    "loop": false,
+    "source": "https://opengameart.org/content/swishes-sound-pack + https://opengameart.org/content/wind-hit-time-morph + Kenney Interface Sounds",
+    "license": "CC0",
+    "author": "artisticdude, qubodup, Kenney"
+  },
+  {
+    "id": "thief_fade",
+    "file": "sfx/boss/thief_fade.ogg",
+    "use": "시간 도둑 가짜 잔상 사라짐 — 거꾸로 스르륵",
+    "category": "boss",
+    "volume": 0.5,
+    "loop": false,
+    "source": "https://opengameart.org/content/wind-hit-time-morph + Kenney Interface Sounds",
+    "license": "CC0",
+    "author": "qubodup, Kenney"
+  },
+  {
+    "id": "timestop_in",
+    "file": "sfx/boss/timestop_in.ogg",
+    "use": "시간 정지 시작 — 째깍이 늘어지며 멈춤(테이프 멈춤)",
+    "category": "boss",
+    "volume": 0.7,
+    "loop": false,
+    "source": "https://opengameart.org/content/ticking-clock + https://opengameart.org/content/wind-hit-time-morph + Kenney Impact Sounds",
+    "license": "CC0",
+    "author": "bart, qubodup, Kenney"
+  },
+  {
+    "id": "timestop_out",
+    "file": "sfx/boss/timestop_out.ogg",
+    "use": "시간 정지 끝 — 째깍이 다시 빨라짐(거꾸로)",
+    "category": "boss",
+    "volume": 0.7,
+    "loop": false,
+    "source": "Kenney Impact Sounds + https://opengameart.org/content/ticking-clock + https://opengameart.org/content/wind-hit-time-morph",
+    "license": "CC0",
+    "author": "Kenney, bart, qubodup"
+  },
+  {
+    "id": "boss_appear",
+    "file": "sfx/boss/boss_appear.ogg",
+    "use": "보스 등장(멈춘 시계공) — 낮은 종 두 번+울림",
+    "category": "boss",
+    "volume": 0.8,
+    "loop": false,
+    "source": "Kenney Impact Sounds + https://opengameart.org/content/bell-dingschimes + Kenney Sci-fi Sounds",
+    "license": "CC0",
+    "author": "Kenney, pwl"
+  },
+  {
+    "id": "clock_door_open",
+    "file": "sfx/boss/clock_door_open.ogg",
+    "use": "\"맞는 시각\" 문 열림 — 태엽 드르륵+톱니 철컥+문",
+    "category": "boss",
+    "volume": 0.7,
+    "loop": false,
+    "source": "https://opengameart.org/content/clock-wind-sounds + Kenney RPG Audio + Kenney Impact Sounds + Kenney Interface Sounds",
+    "license": "CC0",
+    "author": "bmaczero, Kenney"
+  },
+  {
+    "id": "moto_start",
+    "file": "sfx/vehicle/moto_start.ogg",
+    "use": "오토바이 시동(탈 때) — 키르릉 → 부릉",
+    "category": "vehicle",
+    "volume": 0.7,
+    "loop": false,
+    "source": "https://opengameart.org/content/car-engine-start-01 + Kenney Sci-fi Sounds",
+    "license": "CC0",
+    "author": "looneybits, Kenney"
+  },
+  {
+    "id": "moto_idle",
+    "file": "sfx/vehicle/moto_idle.ogg",
+    "use": "오토바이 공회전 루프(멈춰 있을 때) — 통통통",
+    "category": "vehicle",
+    "volume": 0.4,
+    "loop": true,
+    "source": "Kenney Sci-fi Sounds",
+    "license": "CC0",
+    "author": "Kenney"
+  },
+  {
+    "id": "moto_ride",
+    "file": "sfx/vehicle/moto_ride.ogg",
+    "use": "오토바이 달리기 루프 — 부르릉",
+    "category": "vehicle",
+    "volume": 0.45,
+    "loop": true,
+    "source": "Kenney Sci-fi Sounds + https://opengameart.org/content/mild-wind-background-noise",
+    "license": "CC0",
+    "author": "Kenney, bashar3a"
+  },
+  {
+    "id": "snowmobile_ride",
+    "file": "sfx/vehicle/snowmobile_ride.ogg",
+    "use": "설상차 달리기 루프 — 웅웅+눈 쓸리는 쉬익",
+    "category": "vehicle",
+    "volume": 0.45,
+    "loop": true,
+    "source": "Kenney Sci-fi Sounds + https://opengameart.org/content/steamboat-engine-sound + https://opengameart.org/content/mild-wind-background-noise",
+    "license": "CC0",
+    "author": "Kenney, spring-spring, bashar3a"
+  },
+  {
+    "id": "vehicle_off",
+    "file": "sfx/vehicle/vehicle_off.ogg",
+    "use": "탈것 내리기 — 엔진 꺼짐+털썩",
+    "category": "vehicle",
+    "volume": 0.6,
+    "loop": false,
+    "source": "Kenney RPG Audio + Kenney Sci-fi Sounds",
+    "license": "CC0",
+    "author": "Kenney"
+  },
+  {
+    "id": "arrow_volley",
+    "file": "sfx/rift/arrow_volley.ogg",
+    "use": "화살비 낙하(무너진 왕성, 주홍 원 예고 끝) — 쉬쉬쉭+툭툭툭",
+    "category": "rift",
+    "volume": 0.75,
+    "loop": false,
+    "source": "https://opengameart.org/content/medieval-sound-effects-weapon-textures + Kenney Impact Sounds",
+    "license": "CC0",
+    "author": "medicinestorm, Kenney"
+  },
+  {
+    "id": "toy_cannon",
+    "file": "sfx/rift/toy_cannon.ogg",
+    "use": "장난감 포격(전쟁터) — 휘이~ 떨어지는 휘파람 → 0.95초에 코르크 펑",
+    "category": "rift",
+    "volume": 0.8,
+    "loop": false,
+    "source": "https://opengameart.org/content/steam-whistle + https://opengameart.org/content/fantasy-sound-effects-tinysized-sfx + https://opengameart.org/content/3-pop-sounds + https://opengameart.org/content/25-cc0-bang-firework-sfx + Kenney Impact Sounds",
+    "license": "CC0",
+    "author": "bart, vehicle, wubitog, rubberduck, Kenney"
+  },
+  {
+    "id": "power_down",
+    "file": "sfx/rift/power_down.ogg",
+    "use": "정전(미래 연구소, 1분마다 10초 암전) — 철컥+웅 내려앉음",
+    "category": "rift",
+    "volume": 0.7,
+    "loop": false,
+    "source": "Kenney Impact Sounds + Kenney Sci-fi Sounds + https://opengameart.org/content/machine-shutting-down",
+    "license": "CC0",
+    "author": "Kenney, cough-e"
+  },
+  {
+    "id": "music_box_short",
+    "file": "sfx/rift/music_box_short.ogg",
+    "use": "회전목마 오르골(유원지, 회전목마 돌기 시작) — 2.4초 한 소절",
+    "category": "rift",
+    "volume": 0.5,
+    "loop": false,
+    "source": "https://opengameart.org/content/4-music-box-tracks",
+    "license": "CC0",
+    "author": "aureolusomicron"
+  },
+  {
+    "id": "ui_dial_tick",
+    "file": "sfx/ui/ui_dial_tick.ogg",
+    "use": "라디오 다이얼 돌리기(눈금 하나 넘을 때마다) — 틱",
+    "category": "ui",
+    "volume": 0.4,
+    "loop": false,
+    "source": "Kenney Interface Sounds + Kenney UI Audio",
+    "license": "CC0",
+    "author": "Kenney"
+  },
+  {
+    "id": "ui_dial_lock",
+    "file": "sfx/ui/ui_dial_lock.ogg",
+    "use": "맞는 시각 일치(다이얼이 정답에 맞음) — 철컥+딩",
+    "category": "ui",
+    "volume": 0.55,
+    "loop": false,
+    "source": "Kenney RPG Audio + Kenney Interface Sounds + Kenney Impact Sounds",
+    "license": "CC0",
+    "author": "Kenney"
+  },
+  {
+    "id": "ui_travel",
+    "file": "sfx/ui/ui_travel.ogg",
+    "use": "월드맵 이동 시작(목적지 확정) — 지도 휙+태엽",
+    "category": "ui",
+    "volume": 0.5,
+    "loop": false,
+    "source": "https://opengameart.org/content/wind-hit-time-morph + Kenney RPG Audio + https://opengameart.org/content/clock-wind-sounds",
+    "license": "CC0",
+    "author": "qubodup, Kenney, bmaczero"
+  },
+  {
+    "id": "ui_toggle",
+    "file": "sfx/ui/ui_toggle.ogg",
+    "use": "설정 토글 켬/끔 — 딸깍",
+    "category": "ui",
+    "volume": 0.45,
+    "loop": false,
+    "source": "Kenney UI Audio + Kenney Interface Sounds",
+    "license": "CC0",
+    "author": "Kenney"
+  },
+  {
+    "id": "notify_rift",
+    "file": "sfx/ui/notify_rift.ogg",
+    "use": "알림 — 균열 열림(월드맵 핀 생김) — 유리 금+낮은 종",
+    "category": "ui",
+    "volume": 0.6,
+    "loop": false,
+    "source": "https://opengameart.org/content/ice-breakingshattering + Kenney Impact Sounds",
+    "license": "CC0",
+    "author": "ignasd, Kenney"
+  }
+]

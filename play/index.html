@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta name="robots" content="noindex, nofollow" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+    <meta name="theme-color" content="#2c2520" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Clockfall" />
+    <!-- PWA(T2 D0+): 홈 화면에 추가 → 전체화면 가로. 아이콘 = 깨진 시계 O, 스플래시 = 로딩 쉘터 장면(기종별 6종) -->
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="icon" type="image/png" sizes="192x192" href="./pwa/icon-192.png" />
+    <link rel="apple-touch-icon" href="./pwa/apple-touch-icon.png" />
+    <link rel="apple-touch-startup-image" media="(device-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)" href="./pwa/splash-iphone-15-pro-max.jpg" />
+    <link rel="apple-touch-startup-image" media="(device-width: 393px) and (device-height: 852px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)" href="./pwa/splash-iphone-15-pro.jpg" />
+    <link rel="apple-touch-startup-image" media="(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)" href="./pwa/splash-iphone-14.jpg" />
+    <link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" href="./pwa/splash-iphone-11.jpg" />
+    <link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" href="./pwa/splash-iphone-se.jpg" />
+    <link rel="apple-touch-startup-image" media="(device-width: 820px) and (device-height: 1180px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" href="./pwa/splash-ipad-10.jpg" />
+    <title>Clockfall</title>
+    <script type="module" crossorigin src="./assets/main-e_Z-Pzcs.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/zones-Bb95k7pv.js">
+    <link rel="modulepreload" crossorigin href="./assets/three-DsLRNZ4b.js">
+    <link rel="stylesheet" crossorigin href="./assets/main-B2PojhYt.css">
+  </head>
+  <body>
+    <canvas id="view"></canvas>
+    <div id="stick-zone"></div>
+    <div id="labels"></div>
+    <div id="hud"></div>
+    <div id="rotate">화면을 가로로 돌려 주세요 ⟳</div>
+  </body>
+</html>

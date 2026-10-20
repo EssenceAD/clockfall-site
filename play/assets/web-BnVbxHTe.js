@@ -1,0 +1,1 @@
+import{r as e}from"./main-e_Z-Pzcs.js";var t=class extends e{async show(e){}async hide(e){}};export{t as SplashScreenWeb};

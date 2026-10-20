@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" id="s" width="128" height="128"><defs id="defs"><filter id="engCream" x="-30%" y="-30%" width="160%" height="170%" color-interpolation-filters="sRGB">
+  <feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="4" result="n"></feTurbulence>
+  <feDisplacementMap in="SourceAlpha" in2="n" scale="2.4" xChannelSelector="R" yChannelSelector="G" result="a"></feDisplacementMap>
+  <feFlood flood-color="#4E3B2A" flood-opacity="1"></feFlood><feComposite in2="a" operator="in" result="fill"></feComposite>
+  <feOffset in="a" dx=".8" dy="2.4" result="ao"></feOffset><feComposite in="a" in2="ao" operator="out" result="topWall"></feComposite>
+  <feFlood flood-color="#120d0a" flood-opacity=".75"></feFlood><feComposite in2="topWall" operator="in" result="sh"></feComposite>
+  <feOffset in="a" dx="0" dy="-1.8" result="au"></feOffset><feComposite in="a" in2="au" operator="out" result="botWall"></feComposite>
+  <feFlood flood-color="#FFF8E6" flood-opacity=".8"></feFlood><feComposite in2="botWall" operator="in" result="hl"></feComposite>
+  <feMorphology in="a" operator="dilate" radius="1.6" result="ad"></feMorphology><feComposite in="ad" in2="a" operator="out" result="edge"></feComposite>
+  <feTurbulence type="turbulence" baseFrequency=".35" numOctaves="1" seed="9" result="n2"></feTurbulence>
+  <feColorMatrix in="n2" type="matrix" values="0 0 0 0 1  0 0 0 0 .97  0 0 0 0 .9  0 0 0 9 -5.2" result="chip"></feColorMatrix>
+  <feComposite in="chip" in2="edge" operator="in" result="chips"></feComposite>
+  <feMerge><feMergeNode in="fill"></feMergeNode><feMergeNode in="sh"></feMergeNode><feMergeNode in="hl"></feMergeNode><feMergeNode in="chips"></feMergeNode></feMerge></filter><filter id="engPatina" x="-30%" y="-30%" width="160%" height="170%" color-interpolation-filters="sRGB">
+  <feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="4" result="n"></feTurbulence>
+  <feDisplacementMap in="SourceAlpha" in2="n" scale="2.4" xChannelSelector="R" yChannelSelector="G" result="a"></feDisplacementMap>
+  <feFlood flood-color="#0F2A26" flood-opacity="1"></feFlood><feComposite in2="a" operator="in" result="fill"></feComposite>
+  <feOffset in="a" dx=".8" dy="2.4" result="ao"></feOffset><feComposite in="a" in2="ao" operator="out" result="topWall"></feComposite>
+  <feFlood flood-color="#120d0a" flood-opacity=".75"></feFlood><feComposite in2="topWall" operator="in" result="sh"></feComposite>
+  <feOffset in="a" dx="0" dy="-1.8" result="au"></feOffset><feComposite in="a" in2="au" operator="out" result="botWall"></feComposite>
+  <feFlood flood-color="#9BD3C8" flood-opacity=".8"></feFlood><feComposite in2="botWall" operator="in" result="hl"></feComposite>
+  <feMorphology in="a" operator="dilate" radius="1.6" result="ad"></feMorphology><feComposite in="ad" in2="a" operator="out" result="edge"></feComposite>
+  <feTurbulence type="turbulence" baseFrequency=".35" numOctaves="1" seed="9" result="n2"></feTurbulence>
+  <feColorMatrix in="n2" type="matrix" values="0 0 0 0 1  0 0 0 0 .97  0 0 0 0 .9  0 0 0 9 -5.2" result="chip"></feColorMatrix>
+  <feComposite in="chip" in2="edge" operator="in" result="chips"></feComposite>
+  <feMerge><feMergeNode in="fill"></feMergeNode><feMergeNode in="sh"></feMergeNode><feMergeNode in="hl"></feMergeNode><feMergeNode in="chips"></feMergeNode></feMerge></filter><filter id="engRed" x="-30%" y="-30%" width="160%" height="170%" color-interpolation-filters="sRGB">
+  <feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="4" result="n"></feTurbulence>
+  <feDisplacementMap in="SourceAlpha" in2="n" scale="2.4" xChannelSelector="R" yChannelSelector="G" result="a"></feDisplacementMap>
+  <feFlood flood-color="#4A1408" flood-opacity="1"></feFlood><feComposite in2="a" operator="in" result="fill"></feComposite>
+  <feOffset in="a" dx=".8" dy="2.4" result="ao"></feOffset><feComposite in="a" in2="ao" operator="out" result="topWall"></feComposite>
+  <feFlood flood-color="#120d0a" flood-opacity=".75"></feFlood><feComposite in2="topWall" operator="in" result="sh"></feComposite>
+  <feOffset in="a" dx="0" dy="-1.8" result="au"></feOffset><feComposite in="a" in2="au" operator="out" result="botWall"></feComposite>
+  <feFlood flood-color="#FFC2A8" flood-opacity=".8"></feFlood><feComposite in2="botWall" operator="in" result="hl"></feComposite>
+  <feMorphology in="a" operator="dilate" radius="1.6" result="ad"></feMorphology><feComposite in="ad" in2="a" operator="out" result="edge"></feComposite>
+  <feTurbulence type="turbulence" baseFrequency=".35" numOctaves="1" seed="9" result="n2"></feTurbulence>
+  <feColorMatrix in="n2" type="matrix" values="0 0 0 0 1  0 0 0 0 .97  0 0 0 0 .9  0 0 0 9 -5.2" result="chip"></feColorMatrix>
+  <feComposite in="chip" in2="edge" operator="in" result="chips"></feComposite>
+  <feMerge><feMergeNode in="fill"></feMergeNode><feMergeNode in="sh"></feMergeNode><feMergeNode in="hl"></feMergeNode><feMergeNode in="chips"></feMergeNode></feMerge></filter><filter id="engInk" x="-30%" y="-30%" width="160%" height="170%" color-interpolation-filters="sRGB">
+  <feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="4" result="n"></feTurbulence>
+  <feDisplacementMap in="SourceAlpha" in2="n" scale="2.4" xChannelSelector="R" yChannelSelector="G" result="a"></feDisplacementMap>
+  <feFlood flood-color="#120D0A" flood-opacity="1"></feFlood><feComposite in2="a" operator="in" result="fill"></feComposite>
+  <feOffset in="a" dx=".8" dy="2.4" result="ao"></feOffset><feComposite in="a" in2="ao" operator="out" result="topWall"></feComposite>
+  <feFlood flood-color="#120d0a" flood-opacity=".75"></feFlood><feComposite in2="topWall" operator="in" result="sh"></feComposite>
+  <feOffset in="a" dx="0" dy="-1.8" result="au"></feOffset><feComposite in="a" in2="au" operator="out" result="botWall"></feComposite>
+  <feFlood flood-color="#8A7868" flood-opacity=".8"></feFlood><feComposite in2="botWall" operator="in" result="hl"></feComposite>
+  <feMorphology in="a" operator="dilate" radius="1.6" result="ad"></feMorphology><feComposite in="ad" in2="a" operator="out" result="edge"></feComposite>
+  <feTurbulence type="turbulence" baseFrequency=".35" numOctaves="1" seed="9" result="n2"></feTurbulence>
+  <feColorMatrix in="n2" type="matrix" values="0 0 0 0 1  0 0 0 0 .97  0 0 0 0 .9  0 0 0 9 -5.2" result="chip"></feColorMatrix>
+  <feComposite in="chip" in2="edge" operator="in" result="chips"></feComposite>
+  <feMerge><feMergeNode in="fill"></feMergeNode><feMergeNode in="sh"></feMergeNode><feMergeNode in="hl"></feMergeNode><feMergeNode in="chips"></feMergeNode></feMerge></filter><filter id="engLeather" x="-30%" y="-30%" width="160%" height="170%" color-interpolation-filters="sRGB">
+  <feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="4" result="n"></feTurbulence>
+  <feDisplacementMap in="SourceAlpha" in2="n" scale="2.4" xChannelSelector="R" yChannelSelector="G" result="a"></feDisplacementMap>
+  <feFlood flood-color="#1E1109" flood-opacity="1"></feFlood><feComposite in2="a" operator="in" result="fill"></feComposite>
+  <feOffset in="a" dx=".8" dy="2.4" result="ao"></feOffset><feComposite in="a" in2="ao" operator="out" result="topWall"></feComposite>
+  <feFlood flood-color="#120d0a" flood-opacity=".75"></feFlood><feComposite in2="topWall" operator="in" result="sh"></feComposite>
+  <feOffset in="a" dx="0" dy="-1.8" result="au"></feOffset><feComposite in="a" in2="au" operator="out" result="botWall"></feComposite>
+  <feFlood flood-color="#E0A56C" flood-opacity=".8"></feFlood><feComposite in2="botWall" operator="in" result="hl"></feComposite>
+  <feMorphology in="a" operator="dilate" radius="1.6" result="ad"></feMorphology><feComposite in="ad" in2="a" operator="out" result="edge"></feComposite>
+  <feTurbulence type="turbulence" baseFrequency=".35" numOctaves="1" seed="9" result="n2"></feTurbulence>
+  <feColorMatrix in="n2" type="matrix" values="0 0 0 0 1  0 0 0 0 .97  0 0 0 0 .9  0 0 0 9 -5.2" result="chip"></feColorMatrix>
+  <feComposite in="chip" in2="edge" operator="in" result="chips"></feComposite>
+  <feMerge><feMergeNode in="fill"></feMergeNode><feMergeNode in="sh"></feMergeNode><feMergeNode in="hl"></feMergeNode><feMergeNode in="chips"></feMergeNode></feMerge></filter><filter id="enamel" x="-30%" y="-30%" width="160%" height="170%" color-interpolation-filters="sRGB">
+  <feTurbulence type="fractalNoise" baseFrequency=".8" numOctaves="2" seed="2" result="n"></feTurbulence>
+  <feDisplacementMap in="SourceAlpha" in2="n" scale="1.8" xChannelSelector="R" yChannelSelector="G" result="a"></feDisplacementMap>
+  <feMorphology in="a" operator="dilate" radius="2.6" result="ol"></feMorphology>
+  <feOffset in="ol" dy="3" result="olS"></feOffset><feFlood flood-color="#2C2520" flood-opacity=".55"></feFlood><feComposite in2="olS" operator="in" result="drop"></feComposite>
+  <feFlood flood-color="#2C2520"></feFlood><feComposite in2="ol" operator="in" result="outline"></feComposite>
+  <feFlood flood-color="#F2E4C4"></feFlood><feComposite in2="a" operator="in" result="fill"></feComposite>
+  <feOffset in="a" dy="2.2" result="ao"></feOffset><feComposite in="a" in2="ao" operator="out" result="top"></feComposite>
+  <feFlood flood-color="#FFFBF0" flood-opacity=".95"></feFlood><feComposite in2="top" operator="in" result="hl"></feComposite>
+  <feOffset in="a" dy="-2.6" result="au"></feOffset><feComposite in="a" in2="au" operator="out" result="bot"></feComposite>
+  <feFlood flood-color="#B49A6E" flood-opacity=".9"></feFlood><feComposite in2="bot" operator="in" result="sh"></feComposite>
+  <feMerge><feMergeNode in="drop"></feMergeNode><feMergeNode in="outline"></feMergeNode><feMergeNode in="fill"></feMergeNode><feMergeNode in="hl"></feMergeNode><feMergeNode in="sh"></feMergeNode></feMerge></filter><filter id="enamelRed" x="-30%" y="-30%" width="160%" height="170%" color-interpolation-filters="sRGB">
+  <feTurbulence type="fractalNoise" baseFrequency=".8" numOctaves="2" seed="5" result="n"></feTurbulence>
+  <feDisplacementMap in="SourceAlpha" in2="n" scale="1.6" xChannelSelector="R" yChannelSelector="G" result="a"></feDisplacementMap>
+  <feMorphology in="a" operator="dilate" radius="2.6" result="ol"></feMorphology>
+  <feOffset in="ol" dy="3" result="olS"></feOffset><feFlood flood-color="#2C2520" flood-opacity=".55"></feFlood><feComposite in2="olS" operator="in" result="drop"></feComposite>
+  <feFlood flood-color="#2C2520"></feFlood><feComposite in2="ol" operator="in" result="outline"></feComposite>
+  <feFlood flood-color="#E5512E"></feFlood><feComposite in2="a" operator="in" result="fill"></feComposite>
+  <feOffset in="a" dy="2.4" result="ao"></feOffset><feComposite in="a" in2="ao" operator="out" result="top"></feComposite>
+  <feFlood flood-color="#FFB49A" flood-opacity=".95"></feFlood><feComposite in2="top" operator="in" result="hl"></feComposite>
+  <feOffset in="a" dy="-2.8" result="au"></feOffset><feComposite in="a" in2="au" operator="out" result="bot"></feComposite>
+  <feFlood flood-color="#8E2A14" flood-opacity=".95"></feFlood><feComposite in2="bot" operator="in" result="sh"></feComposite>
+  <feMerge><feMergeNode in="drop"></feMergeNode><feMergeNode in="outline"></feMergeNode><feMergeNode in="fill"></feMergeNode><feMergeNode in="hl"></feMergeNode><feMergeNode in="sh"></feMergeNode></feMerge></filter><filter id="ds" x="-30%" y="-30%" width="160%" height="170%" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="5" stdDeviation="0" flood-color="#2C2520" flood-opacity=".55"></feDropShadow></filter><filter id="dsS" x="-30%" y="-30%" width="160%" height="170%" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="3" stdDeviation="0" flood-color="#2C2520" flood-opacity=".55"></feDropShadow></filter></defs><g transform="translate(64 64) scale(1.2)"><rect x="-26" y="-6" width="48" height="44" rx="16" fill="#000"></rect><rect x="-26" y="-34" width="11" height="40" rx="5.5" fill="#000"></rect><rect x="-13" y="-44" width="11" height="50" rx="5.5" fill="#000"></rect><rect x="0" y="-46" width="11" height="52" rx="5.5" fill="#000"></rect><rect x="13" y="-38" width="11" height="44" rx="5.5" fill="#000"></rect><rect x="14" y="2" width="12" height="34" rx="6" fill="#000" transform="rotate(-35 20 20)"></rect></g></svg>

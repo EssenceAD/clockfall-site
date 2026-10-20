@@ -1,0 +1,893 @@
+{
+  "version": "10-3",
+  "scale": "master = 2x dp",
+  "items": {
+    "bel_buckle": {
+      "file": "bel/bel_buckle.png",
+      "w": 140,
+      "h": 88,
+      "dp": [
+        70,
+        44
+      ],
+      "use": "버클(소지품 철물)"
+    },
+    "bel_canvas_panel": {
+      "file": "bel/bel_canvas_panel.png",
+      "w": 640,
+      "h": 293,
+      "dp": [
+        320,
+        146
+      ],
+      "slice": [
+        46,
+        46,
+        46,
+        46
+      ],
+      "sliceDp": [
+        23,
+        23,
+        23,
+        23
+      ],
+      "use": "소지품 화면 안감 띠(게이지·주머니)"
+    },
+    "bel_leather_oiled_panel": {
+      "file": "bel/bel_leather_oiled_panel.png",
+      "w": 640,
+      "h": 360,
+      "dp": [
+        320,
+        180
+      ],
+      "slice": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "sliceDp": [
+        24,
+        24,
+        24,
+        24
+      ],
+      "use": "소지품 화면 양옆 그룹(장비·상세) — 반 단계 어둡고 차가움"
+    },
+    "bel_leather_panel": {
+      "file": "bel/bel_leather_panel.png",
+      "w": 640,
+      "h": 318,
+      "dp": [
+        320,
+        159
+      ],
+      "slice": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "sliceDp": [
+        24,
+        24,
+        24,
+        24
+      ],
+      "use": "소지품 화면 중심 그룹(가방)"
+    },
+    "bel_leather_slot": {
+      "file": "bel/bel_leather_slot.png",
+      "w": 184,
+      "h": 184,
+      "dp": [
+        92,
+        92
+      ],
+      "use": "가죽 홈 슬롯"
+    },
+    "bel_leather_slot_locked": {
+      "file": "bel/bel_leather_slot_locked.png",
+      "w": 184,
+      "h": 184,
+      "dp": [
+        92,
+        92
+      ],
+      "derivedFrom": "bel_leather_slot",
+      "use": "잠긴 칸"
+    },
+    "bel_leather_slot_oiled": {
+      "file": "bel/bel_leather_slot_oiled.png",
+      "w": 184,
+      "h": 184,
+      "dp": [
+        92,
+        92
+      ],
+      "derivedFrom": "bel_leather_slot",
+      "use": "기름 가죽 위 홈 슬롯"
+    },
+    "bel_tab_off": {
+      "file": "bel/bel_tab_off.png",
+      "w": 415,
+      "h": 124,
+      "dp": [
+        208,
+        62
+      ],
+      "slice": [
+        52,
+        52,
+        0,
+        52
+      ],
+      "sliceDp": [
+        26,
+        26,
+        0,
+        26
+      ],
+      "use": "가죽 탭 비선택"
+    },
+    "bel_tab_on": {
+      "file": "bel/bel_tab_on.png",
+      "w": 369,
+      "h": 124,
+      "dp": [
+        184,
+        62
+      ],
+      "slice": [
+        52,
+        52,
+        0,
+        52
+      ],
+      "sliceDp": [
+        26,
+        26,
+        0,
+        26
+      ],
+      "use": "가죽 탭 선택(아래 열림, 패널에 이어 붙임)"
+    },
+    "dev_badge_0": {
+      "file": "dev/dev_badge_0.png",
+      "w": 311,
+      "h": 76,
+      "dp": [
+        156,
+        38
+      ],
+      "slice": [
+        0,
+        24,
+        0,
+        70
+      ],
+      "sliceDp": [
+        0,
+        12,
+        0,
+        35
+      ]
+    },
+    "dev_badge_1": {
+      "file": "dev/dev_badge_1.png",
+      "w": 311,
+      "h": 76,
+      "dp": [
+        156,
+        38
+      ],
+      "slice": [
+        0,
+        24,
+        0,
+        70
+      ],
+      "sliceDp": [
+        0,
+        12,
+        0,
+        35
+      ]
+    },
+    "dev_badge_2": {
+      "file": "dev/dev_badge_2.png",
+      "w": 311,
+      "h": 76,
+      "dp": [
+        156,
+        38
+      ],
+      "slice": [
+        0,
+        24,
+        0,
+        70
+      ],
+      "sliceDp": [
+        0,
+        12,
+        0,
+        35
+      ]
+    },
+    "dev_badge_3": {
+      "file": "dev/dev_badge_3.png",
+      "w": 311,
+      "h": 76,
+      "dp": [
+        156,
+        38
+      ],
+      "slice": [
+        0,
+        24,
+        0,
+        70
+      ],
+      "sliceDp": [
+        0,
+        12,
+        0,
+        35
+      ]
+    },
+    "dev_badge_4": {
+      "file": "dev/dev_badge_4.png",
+      "w": 311,
+      "h": 76,
+      "dp": [
+        156,
+        38
+      ],
+      "slice": [
+        0,
+        24,
+        0,
+        70
+      ],
+      "sliceDp": [
+        0,
+        12,
+        0,
+        35
+      ]
+    },
+    "dev_btn_half": {
+      "file": "dev/dev_btn_half.png",
+      "w": 329,
+      "h": 148,
+      "dp": [
+        164,
+        74
+      ],
+      "slice": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "sliceDp": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "use": "위험 행동 버튼(먹) — 버리기·취소, 글자 주홍"
+    },
+    "dev_btn_half_disabled": {
+      "file": "dev/dev_btn_half_disabled.png",
+      "w": 329,
+      "h": 148,
+      "dp": [
+        164,
+        74
+      ],
+      "slice": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "sliceDp": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "use": "위험 행동 버튼(먹) — 버리기·취소, 글자 주홍"
+    },
+    "dev_btn_half_pressed": {
+      "file": "dev/dev_btn_half_pressed.png",
+      "w": 329,
+      "h": 148,
+      "dp": [
+        164,
+        74
+      ],
+      "slice": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "sliceDp": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "use": "위험 행동 버튼(먹) — 버리기·취소, 글자 주홍"
+    },
+    "dev_btn_round": {
+      "file": "dev/dev_btn_round.png",
+      "w": 208,
+      "h": 208,
+      "dp": [
+        104,
+        104
+      ],
+      "use": "보조 원형 버튼 (M)"
+    },
+    "dev_btn_round_disabled": {
+      "file": "dev/dev_btn_round_disabled.png",
+      "w": 208,
+      "h": 208,
+      "dp": [
+        104,
+        104
+      ],
+      "use": "보조 원형 버튼 (M)"
+    },
+    "dev_btn_round_pressed": {
+      "file": "dev/dev_btn_round_pressed.png",
+      "w": 208,
+      "h": 208,
+      "dp": [
+        104,
+        104
+      ],
+      "use": "보조 원형 버튼 (M)"
+    },
+    "dev_btn_wide": {
+      "file": "dev/dev_btn_wide.png",
+      "w": 541,
+      "h": 148,
+      "dp": [
+        270,
+        74
+      ],
+      "slice": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "sliceDp": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "use": "주 행동 버튼(녹청) — 장착·확인"
+    },
+    "dev_btn_wide_disabled": {
+      "file": "dev/dev_btn_wide_disabled.png",
+      "w": 560,
+      "h": 148,
+      "dp": [
+        280,
+        74
+      ],
+      "slice": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "sliceDp": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "use": "주 행동 버튼(녹청) — 장착·확인"
+    },
+    "dev_btn_wide_pressed": {
+      "file": "dev/dev_btn_wide_pressed.png",
+      "w": 540,
+      "h": 148,
+      "dp": [
+        270,
+        74
+      ],
+      "slice": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "sliceDp": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "use": "주 행동 버튼(녹청) — 장착·확인"
+    },
+    "dev_cell_ammo": {
+      "file": "dev/dev_cell_ammo.png",
+      "w": 113,
+      "h": 32,
+      "dp": [
+        56,
+        16
+      ],
+      "slice": [
+        0,
+        12,
+        0,
+        12
+      ],
+      "sliceDp": [
+        0,
+        6,
+        0,
+        6
+      ],
+      "use": "탄약 칸"
+    },
+    "dev_cell_off": {
+      "file": "dev/dev_cell_off.png",
+      "w": 121,
+      "h": 32,
+      "dp": [
+        60,
+        16
+      ],
+      "slice": [
+        0,
+        12,
+        0,
+        12
+      ],
+      "sliceDp": [
+        0,
+        6,
+        0,
+        6
+      ],
+      "use": "빈 칸"
+    },
+    "dev_cell_on": {
+      "file": "dev/dev_cell_on.png",
+      "w": 111,
+      "h": 32,
+      "dp": [
+        56,
+        16
+      ],
+      "slice": [
+        0,
+        12,
+        0,
+        12
+      ],
+      "sliceDp": [
+        0,
+        6,
+        0,
+        6
+      ],
+      "use": "체력 칸"
+    },
+    "dev_cell_red": {
+      "file": "dev/dev_cell_red.png",
+      "w": 111,
+      "h": 32,
+      "dp": [
+        56,
+        16
+      ],
+      "slice": [
+        0,
+        12,
+        0,
+        12
+      ],
+      "sliceDp": [
+        0,
+        6,
+        0,
+        6
+      ],
+      "derivedFrom": "dev_cell_on",
+      "use": "적 체력 칸"
+    },
+    "dev_dial_base": {
+      "file": "dev/dev_dial_base.png",
+      "w": 424,
+      "h": 424,
+      "dp": [
+        212,
+        212
+      ],
+      "use": "공격·이동 스틱 바탕 (L)"
+    },
+    "dev_enamel_groove": {
+      "file": "dev/dev_enamel_groove.png",
+      "w": 184,
+      "h": 184,
+      "dp": [
+        92,
+        92
+      ],
+      "use": "에나멜 홈 슬롯(제작대 등 장치 화면)"
+    },
+    "dev_enamel_groove_locked": {
+      "file": "dev/dev_enamel_groove_locked.png",
+      "w": 184,
+      "h": 184,
+      "dp": [
+        92,
+        92
+      ],
+      "derivedFrom": "dev_enamel_groove",
+      "use": "잠긴 칸(장치)"
+    },
+    "dev_frame_brass": {
+      "file": "dev/dev_frame_brass.png",
+      "w": 960,
+      "h": 519,
+      "dp": [
+        480,
+        260
+      ],
+      "slice": [
+        96,
+        96,
+        96,
+        96
+      ],
+      "sliceDp": [
+        48,
+        48,
+        48,
+        48
+      ],
+      "use": "창 컨테이너 테두리(가운데 투명). 화면 최상위 컨테이너 전용"
+    },
+    "dev_gear_ring_l": {
+      "file": "dev/dev_gear_ring_l.png",
+      "w": 302,
+      "h": 302,
+      "dp": [
+        151,
+        151
+      ],
+      "use": "미니맵 톱니 링(톱니 허용 ②)"
+    },
+    "dev_gear_ring_s": {
+      "file": "dev/dev_gear_ring_s.png",
+      "w": 242,
+      "h": 242,
+      "dp": [
+        121,
+        121
+      ],
+      "use": "스킬 쿨다운 다이얼 톱니 링(톱니 허용 ①)"
+    },
+    "dev_knob_ink": {
+      "file": "dev/dev_knob_ink.png",
+      "w": 188,
+      "h": 188,
+      "dp": [
+        94,
+        94
+      ],
+      "use": "이동 스틱 손잡이"
+    },
+    "dev_knob_patina": {
+      "file": "dev/dev_knob_patina.png",
+      "w": 188,
+      "h": 188,
+      "dp": [
+        94,
+        94
+      ],
+      "use": "공격 스틱 손잡이"
+    },
+    "dev_panel_cream": {
+      "file": "dev/dev_panel_cream.png",
+      "w": 640,
+      "h": 295,
+      "dp": [
+        320,
+        148
+      ],
+      "slice": [
+        44,
+        44,
+        44,
+        44
+      ],
+      "sliceDp": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "use": "장치 화면 그룹 색면(밝음)"
+    },
+    "dev_panel_ink": {
+      "file": "dev/dev_panel_ink.png",
+      "w": 640,
+      "h": 295,
+      "dp": [
+        320,
+        148
+      ],
+      "slice": [
+        44,
+        44,
+        44,
+        44
+      ],
+      "sliceDp": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "use": "장치 화면 그룹 색면(어두움)"
+    },
+    "dev_rivet": {
+      "file": "dev/dev_rivet.png",
+      "w": 48,
+      "h": 48,
+      "dp": [
+        24,
+        24
+      ],
+      "use": "리벳(소지품 화면 철물·모서리 보강)"
+    },
+    "dev_btn_alt": {
+      "file": "dev/dev_btn_alt.png",
+      "w": 541,
+      "h": 148,
+      "dp": [
+        270,
+        74
+      ],
+      "slice": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "sliceDp": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "use": "보조 행동 버튼(먹 에나멜) — 새 캐릭터 · 설정 · 세그먼트 꺼짐 칸. 글자 크림(위험 행동은 dev_btn_half + 주홍)"
+    },
+    "dev_btn_alt_pressed": {
+      "file": "dev/dev_btn_alt_pressed.png",
+      "w": 540,
+      "h": 148,
+      "dp": [
+        270,
+        74
+      ],
+      "slice": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "sliceDp": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "use": "보조 행동 버튼 눌림"
+    },
+    "map_pin_brass": {
+      "file": "map/map_pin_brass.png",
+      "w": 217,
+      "h": 256,
+      "dp": [
+        108,
+        128
+      ],
+      "use": "월드맵 지역 핀(황동 압정, 머리 = 깨진 시계 O). 좌표 = 바늘 끝. 지도 소품 — 황동 셈 제외(N4 README §6)"
+    },
+    "map_pin_locked": {
+      "file": "map/map_pin_locked.png",
+      "w": 241,
+      "h": 256,
+      "dp": [
+        120,
+        128
+      ],
+      "use": "월드맵 잠긴 지역 핀(먹 에나멜 + 자물쇠 각인)"
+    },
+    "map_pin_rift": {
+      "file": "map/map_pin_rift.png",
+      "w": 117,
+      "h": 256,
+      "dp": [
+        58,
+        128
+      ],
+      "use": "월드맵 균열 핀(청록 유리 결정). 열렸을 때만 보이고 깜빡임"
+    },
+    "map_tag_leather": {
+      "file": "map/map_tag_leather.png",
+      "w": 512,
+      "h": 343,
+      "dp": [
+        256,
+        172
+      ],
+      "slice": [
+        200,
+        30,
+        40,
+        150
+      ],
+      "sliceDp": [
+        100,
+        15,
+        20,
+        75
+      ],
+      "use": "월드맵 지역 꼬리표 · 이동 조각(가죽 + 아일릿 + 노끈). 위 슬라이스에 노끈 포함. 지도에선 0.5배로 그림"
+    },
+    "map_scroll": {
+      "file": "map/map_scroll.png",
+      "w": 1200,
+      "h": 250,
+      "dp": [
+        600,
+        125
+      ],
+      "slice": [
+        0,
+        270,
+        0,
+        270
+      ],
+      "sliceDp": [
+        0,
+        135,
+        0,
+        135
+      ],
+      "use": "월드맵 제목 두루마리 띠(양끝 말림 고정)"
+    },
+    "map_gear": {
+      "file": "map/map_gear.png",
+      "w": 128,
+      "h": 127,
+      "dp": [
+        64,
+        64
+      ],
+      "use": "월드맵 위험도 톱니(1~3개, 꼬리표 위). 형 지시 톱니 예외 ③"
+    },
+    "map_tag_body": {
+      "file": "map/map_tag_body.png",
+      "w": 512,
+      "h": 343,
+      "dp": [
+        256,
+        172
+      ],
+      "slice": [
+        290,
+        30,
+        40,
+        150
+      ],
+      "sliceDp": [
+        145,
+        15,
+        20,
+        75
+      ],
+      "use": "월드맵 꼬리표 몸통(노끈 지운 map_tag_leather + 아일릿 구멍 먹 안쪽 그림자). 아일릿이 위 슬라이스 안 → 안 늘어남. 지도에선 0.5배"
+    },
+    "map_twine_back": {
+      "file": "map/map_twine_back.png",
+      "w": 200,
+      "h": 300,
+      "dp": [
+        100,
+        150
+      ],
+      "use": "꼬리표 노끈 뒤 조각(매듭 → 꼬리표 뒤 → 구멍 속). 꼬리표 왼쪽 위에 같은 좌표로, 몸통보다 뒤"
+    },
+    "map_twine_front": {
+      "file": "map/map_twine_front.png",
+      "w": 200,
+      "h": 300,
+      "dp": [
+        100,
+        150
+      ],
+      "use": "꼬리표 노끈 앞 조각(구멍에서 나와 앞면 위로 → 매듭). 몸통보다 앞"
+    },
+    "map_twine_knot": {
+      "file": "map/map_twine_knot.png",
+      "w": 54,
+      "h": 68,
+      "dp": [
+        27,
+        34
+      ],
+      "use": "노끈 매듭(압정 바늘에 묶임). 압정보다 앞"
+    }
+  },
+  "icons": {
+    "names": [
+      "aim",
+      "ammo",
+      "back",
+      "bag",
+      "blast",
+      "bomb",
+      "build",
+      "check",
+      "clock",
+      "close",
+      "craft",
+      "exit",
+      "hand",
+      "heart",
+      "info",
+      "lock",
+      "map",
+      "menu",
+      "plus",
+      "repair",
+      "roll",
+      "shield",
+      "sword",
+      "trash",
+      "warn",
+      "walk",
+      "moto",
+      "snowcat",
+      "wood",
+      "stone",
+      "bone",
+      "iron",
+      "spring",
+      "crystal",
+      "ice"
+    ],
+    "variants": [
+      "enamel",
+      "eng_cream",
+      "eng_patina",
+      "eng_leather",
+      "sil"
+    ],
+    "extra": [
+      "ico_blast_enamel_red",
+      "ico_warn_enamel_red",
+      "ico_close_enamel_red"
+    ],
+    "size": 128
+  }
+}
