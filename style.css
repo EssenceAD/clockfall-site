@@ -1,0 +1,218 @@
+/* Clockfall 안내 사이트 — DESIGN §15 키트 톤: 먹 · 크림 에나멜 · 녹청 · 황동. 블러 · 그라데이션 · 둥근 회색 패널 없음 */
+:root {
+  --cream: #F2E4C4;
+  --cream-2: #E8D6AE;
+  --ink: #2C2520;
+  --ink-2: #3A312A;
+  --ink-text: #4A3E34;
+  --verdigris: #3E8A80;
+  --teal: #2CC8B8;
+  --alarm: #E5512E;
+  --brass: #8C6A2E;
+  --brass-hi: #B8924A;
+  --cut: 14px;
+  --gut: 16px;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--ink);
+  color: var(--cream);
+  font: 500 16px/1.7 'Noto Sans KR', sans-serif;
+  font-synthesis: none;
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+}
+img { max-width: 100%; height: auto; display: block; }
+a { color: var(--teal); text-underline-offset: 3px; }
+h1, h2, h3, .display { font-family: 'Do Hyeon', sans-serif; font-weight: 400; letter-spacing: 0.01em; line-height: 1.25; }
+
+/* ---- 위 막대 ---- */
+.bar {
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+  padding: 10px max(var(--gut), env(safe-area-inset-left)) 10px max(var(--gut), env(safe-area-inset-right));
+  border-bottom: 3px solid var(--brass);
+  background: var(--ink);
+  position: sticky; top: 0; z-index: 5;
+}
+.bar-logo img { width: 128px; height: auto; }
+.bar-nav { display: flex; gap: 4px; flex-wrap: wrap; justify-content: flex-end; }
+.bar-nav a {
+  font-family: 'Do Hyeon', sans-serif; font-size: 17px; color: var(--cream); text-decoration: none;
+  padding: 6px 10px; min-height: 40px; display: inline-flex; align-items: center;
+}
+.bar-nav a[aria-current="page"] { color: var(--ink); background: var(--cream); clip-path: polygon(8px 0, 100% 0, 100% calc(100% - 8px), calc(100% - 8px) 100%, 0 100%, 0 8px); }
+
+/* ---- 크림 에나멜 판: 45° 깎은 모서리 + 황동 테 + 블러 없는 그림자 ---- */
+.plate {
+  position: relative;
+  background: var(--cream);
+  color: var(--ink);
+  clip-path: polygon(var(--cut) 0, 100% 0, 100% calc(100% - var(--cut)), calc(100% - var(--cut)) 100%, 0 100%, 0 var(--cut));
+  padding: 22px 20px;
+  box-shadow: inset 0 0 0 3px var(--brass), inset 0 0 0 6px var(--cream), inset 0 0 0 7px var(--cream-2);
+}
+.plate-wrap { filter: drop-shadow(0 5px 0 rgba(0, 0, 0, 0.55)); }
+
+main { max-width: 1040px; margin: 0 auto; padding: 0 var(--gut) 40px; }
+
+/* ---- 첫 화면 ---- */
+.hero { text-align: center; padding: 34px 0 10px; }
+.hero-logo { width: min(640px, 100%); margin: 0 auto; }
+.hero-sub { font-family: 'Do Hyeon', sans-serif; font-size: clamp(20px, 4.6vw, 28px); color: var(--cream); margin: 8px 0 2px; }
+.hero-sub-en { color: var(--brass-hi); font-family: 'Do Hyeon', sans-serif; font-size: 18px; margin: 0; }
+/* ---- 가격 · 결제 · 광고 배지 줄(파는 포인트) ---- */
+.badges {
+  list-style: none; padding: 0; margin: 18px auto 4px; max-width: 600px;
+  display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px;
+}
+.badge {
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 1px;
+  min-height: 84px; padding: 10px 6px 9px;
+  background: var(--ink-2); color: var(--cream);
+  clip-path: polygon(10px 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%, 0 10px);
+  box-shadow: inset 0 0 0 3px var(--brass), inset 0 7px 0 0 var(--teal);
+  line-height: 1.25; text-align: center; text-wrap: balance;
+}
+.badge b { font-family: 'Do Hyeon', sans-serif; font-weight: 400; font-size: clamp(18px, 4.6vw, 23px); color: var(--cream); }
+.badge span { font-size: 13px; font-weight: 700; color: var(--teal); }
+.badge small { font-size: 12px; font-weight: 500; color: #CDBB98; }
+.badge:first-child { background: var(--verdigris); box-shadow: inset 0 0 0 3px var(--brass); }
+.badge:first-child span { color: var(--cream); }
+.badge:first-child small { color: var(--cream-2); }
+.hero-lead { max-width: 640px; margin: 18px auto 0; color: var(--cream-2); }
+.hero-lead .en { display: block; margin-top: 8px; color: #CDBB98; font-size: 15px; }
+.cta { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin: 24px 0 8px; }
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  min-height: 52px; padding: 0 24px;
+  font-family: 'Do Hyeon', sans-serif; font-size: 21px; text-decoration: none;
+  color: var(--cream); background: var(--verdigris);
+  clip-path: polygon(10px 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%, 0 10px);
+  box-shadow: inset 0 0 0 3px var(--brass);
+}
+.btn small { font-family: 'Noto Sans KR', sans-serif; font-size: 13px; font-weight: 700; opacity: 0.85; }
+.btn.alt { background: var(--ink-2); }
+.btn:active { transform: translateY(3px); }
+
+.status {
+  display: inline-block; margin-top: 6px; font-size: 14px; font-weight: 700; color: var(--ink);
+  background: var(--teal); padding: 2px 10px;
+}
+
+/* ---- 섹션 제목: 황동 줄 + 깨진 시계 점 ---- */
+.sec-title { display: flex; align-items: center; gap: 12px; margin: 44px 0 16px; font-size: clamp(24px, 5vw, 32px); color: var(--cream); }
+.sec-title::before, .sec-title::after { content: ''; height: 3px; background: var(--brass); flex: 1; }
+.sec-title span { flex: none; }
+.sec-title .en { color: var(--brass-hi); font-size: 0.6em; margin-left: 8px; }
+
+/* ---- 스크린샷 ---- */
+.shots { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+.shot { margin: 0; }
+.shot-img { border: 3px solid var(--brass); background: var(--ink-2); aspect-ratio: 1280 / 620; overflow: hidden; }
+.shot-img img { width: 100%; height: 100%; object-fit: cover; }
+.shot figcaption { padding: 8px 2px 0; font-family: 'Do Hyeon', sans-serif; font-size: 19px; line-height: 1.3; }
+.shot figcaption .en { display: block; font-family: 'Noto Sans KR', sans-serif; font-size: 13px; color: #CDBB98; font-weight: 500; margin-top: 2px; }
+
+/* ---- 네 줄 ---- */
+.pillars { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.pillar h3 { margin: 0 0 6px; font-size: 22px; color: var(--ink); }
+.pillar p { margin: 0; color: var(--ink-text); }
+.pillar .en { margin-top: 6px; font-size: 14px; color: #6B5D4F; }
+.pillar .no { font-family: 'Do Hyeon', sans-serif; color: var(--verdigris); font-size: 16px; display: block; }
+
+.info { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+.info .plate h3 { margin: 0 0 4px; font-size: 20px; }
+.info .plate p { margin: 0; color: var(--ink-text); font-size: 15px; }
+
+/* ---- 문서(개인정보 · 설치) ---- */
+.doc { max-width: 860px; }
+.lang-switch { text-align: right; margin: 18px 0 10px; font-size: 14px; color: var(--cream-2); }
+.lang-switch a { color: var(--teal); }
+.legal { padding: 30px 28px; }
+.legal h1 { font-size: clamp(28px, 6vw, 38px); margin: 0 0 16px; }
+.legal h2 { font-size: 25px; margin: 34px 0 10px; padding-bottom: 6px; border-bottom: 3px solid var(--brass); }
+.legal h3 { font-size: 20px; margin: 24px 0 8px; color: var(--verdigris); }
+.legal p, .legal li { color: var(--ink-text); }
+.legal strong { color: var(--ink); }
+.legal a { color: #2B6B63; }
+.legal ul { padding-left: 1.2em; }
+.note { background: var(--ink); color: var(--cream); padding: 14px 16px; margin: 0 0 8px; clip-path: polygon(10px 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%, 0 10px); }
+.note p { color: var(--cream); margin: 0; }
+.note strong { color: var(--teal); }
+.tag-soon {
+  display: inline-block; vertical-align: 0.12em; white-space: nowrap;
+  font: 700 12px/1 'Noto Sans KR', sans-serif; letter-spacing: 0;
+  color: var(--cream); background: var(--alarm); padding: 4px 7px;
+}
+h1 .tag-soon, h2 .tag-soon, h3 .tag-soon { font-size: 12px; margin-left: 6px; }
+.tbl { overflow-x: auto; margin: 12px 0; border: 3px solid var(--brass); }
+.tbl table { border-collapse: collapse; width: 100%; min-width: 460px; font-size: 15px; }
+.tbl th, .tbl td { text-align: left; vertical-align: top; padding: 9px 12px; border-bottom: 2px solid var(--cream-2); }
+.tbl th { background: var(--ink); color: var(--cream); font-weight: 700; }
+.tbl td:first-child { font-weight: 900; color: var(--ink); white-space: nowrap; }
+.tbl tr:last-child td { border-bottom: 0; }
+.tbl tr:nth-child(even) td { background: #EADBB8; }
+
+/* ---- 설치 단계 카드 ---- */
+.steps { list-style: none; padding: 0; margin: 0; display: grid; gap: 18px; counter-reset: step; }
+.step { position: relative; padding: 22px 20px 20px 78px; }
+.step-no {
+  position: absolute; left: 18px; top: 20px; width: 44px; height: 44px;
+  display: grid; place-items: center;
+  font-family: 'Do Hyeon', sans-serif; font-size: 26px; color: var(--cream); background: var(--verdigris);
+  box-shadow: inset 0 0 0 3px var(--brass); border-radius: 50%;
+}
+.step h3 { margin: 4px 0 8px; font-size: 23px; color: var(--ink); }
+.step p, .step li { color: var(--ink-text); margin: 6px 0; }
+.step ul, .step ol { padding-left: 1.2em; margin: 6px 0; }
+.path {
+  display: inline; font-weight: 700; color: var(--ink);
+  background: #E2CFA3; padding: 1px 6px; box-decoration-break: clone; -webkit-box-decoration-break: clone;
+}
+.alert { color: var(--alarm); font-weight: 900; }
+.tabs { display: grid; gap: 10px; margin-top: 10px; }
+.tabs details { background: #EADBB8; border-left: 4px solid var(--verdigris); }
+.tabs summary { cursor: pointer; padding: 10px 12px; font-weight: 900; color: var(--ink); min-height: 44px; display: flex; align-items: center; }
+.tabs details > div { padding: 0 14px 10px; }
+.callout { background: var(--ink); color: var(--cream); padding: 16px 18px; margin: 18px 0; clip-path: polygon(10px 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%, 0 10px); }
+.callout h3 { margin: 0 0 6px; color: var(--teal); font-size: 21px; }
+.callout p { margin: 4px 0; color: var(--cream-2); }
+.ph { color: var(--alarm); font-weight: 900; }
+.en-block { margin-top: 48px; }
+.en-block .sec-title .en { margin: 0; }
+.legal-small { font-size: 14px; color: #CDBB98; }
+
+/* ---- 아래 ---- */
+.foot { border-top: 3px solid var(--brass); padding: 20px var(--gut) 30px; text-align: center; color: #CDBB98; font-size: 14px; }
+.foot p { margin: 4px 0; }
+.foot a { color: var(--cream); }
+
+@media (max-width: 720px) {
+  .shots, .pillars, .info { grid-template-columns: minmax(0, 1fr); }
+  .legal { padding: 24px 18px; }
+  .step { padding: 70px 16px 18px 16px; }
+  .step-no { left: 16px; top: 16px; }
+  .bar-logo img { width: 104px; }
+  .bar-nav a { font-size: 16px; padding: 6px 7px; }
+  .badges { gap: 8px; }
+  .badge { min-height: 78px; padding: 9px 4px 8px; }
+}
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.callout { box-shadow: inset 0 0 0 3px var(--brass); }
+.legal .ph { color: #C2401F; }
+@media (max-width: 720px) {
+  .tbl { overflow: visible; border: 0; }
+  .tbl table, .tbl tbody, .tbl tr, .tbl td { display: block; width: 100%; min-width: 0; }
+  .tbl thead { display: none; }
+  .tbl tr { border: 3px solid var(--brass); margin-bottom: 10px; background: var(--cream); }
+  .tbl tr:nth-child(even) td { background: transparent; }
+  .tbl td { border-bottom: 0; padding: 4px 12px; }
+  .tbl td:first-child { background: var(--ink) !important; color: var(--cream); white-space: normal; padding: 8px 12px; }
+  .tbl td:not(:first-child)::before { content: attr(data-label); display: block; font-size: 12px; font-weight: 900; color: var(--brass); }
+  .tbl td:last-child { padding-bottom: 10px; }
+}
+.step.bare { padding: 22px 20px; }
+.nowrap { white-space: nowrap; }

@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>개인정보처리방침 · 클락폴</title>
+<meta name="description" content="클락폴(Clockfall) 개인정보처리방침">
+<link rel="icon" href="../assets/favicon_32.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Noto+Sans+KR:wght@400;500;700;900&display=swap">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header class="bar">
+  <a class="bar-logo" href="../"><img src="../assets/logo_small.webp" alt="Clockfall" width="160" height="57"></a>
+  <nav class="bar-nav">
+    <a href="../">소개</a>
+    <a href="../testers/">테스터 설치</a>
+    <a href="./" aria-current="page">개인정보</a>
+  </nav>
+</header>
+<main class="doc">
+  <p class="lang-switch">한국어 · <a href="./en.html">English</a></p>
+  <article class="plate legal">
+    <h1 id="clockfall">클락폴(Clockfall) 개인정보처리방침</h1>
+    <p>EssenceAd(에센스애드, 이하 "운영자")는 게임 「클락폴(Clockfall)」(안드로이드 앱과 웹 버전, 이하 "게임")을 이용하는 분의 개인정보를 「개인정보 보호법」에 따라 처리하고 보호해요. 이 방침은 게임이 어떤 정보를, 왜, 얼마나 오래 다루는지 알려 드려요.</p>
+    <div class="note">
+    <p><strong>표시 안내</strong> — <span class="tag-soon">준비 중</span> 표시가 붙은 내용은 <strong>클라우드 백업 기능</strong>에 관한 거예요. 이 기능은 아직 게임에 들어가지 않았고, 추가되는 날부터 적용돼요. 추가된 뒤에도 <strong>기본으로 꺼져 있고, 이용자가 설정에서 직접 켜고 동의해야만</strong> 작동해요. 켜지 않으면 게임은 개인정보를 서버로 보내지 않아요.</p>
+    </div>
+    <h2 id="_1">한눈에 보기</h2>
+    <div class="tbl"><table>
+    <thead>
+    <tr>
+    <th>무엇</th>
+    <th>어디에</th>
+    <th>운영자가 받나요?</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td data-label="무엇">게임 저장 · 설정</td>
+    <td data-label="어디에">이용자 기기 안(브라우저 · 앱 저장소)</td>
+    <td data-label="운영자가 받나요?"><strong>아니요</strong></td>
+    </tr>
+    <tr>
+    <td data-label="무엇">버그 신고 내용</td>
+    <td data-label="어디에">이용자가 직접 복사해서 보낼 때만</td>
+    <td data-label="운영자가 받나요?">직접 보낸 경우에만</td>
+    </tr>
+    <tr>
+    <td data-label="무엇">익명 클라우드 백업 <span class="tag-soon">준비 중</span></td>
+    <td data-label="어디에">클라우드 서버(Supabase) — <strong>직접 켠 경우에만</strong></td>
+    <td data-label="운영자가 받나요?">켠 경우에만 — 익명 ID와 저장 데이터</td>
+    </tr>
+    <tr>
+    <td data-label="무엇">광고 · 결제 · 분석 · 위치 · 연락처</td>
+    <td data-label="어디에">—</td>
+    <td data-label="운영자가 받나요?"><strong>수집하지 않아요</strong></td>
+    </tr>
+    </tbody>
+    </table></div>
+    <p>클락폴은 <strong>유료 게임</strong>(출시가 미정)이에요. <strong>인앱 결제와 광고가 없어서</strong> 결제 정보나 광고 ID를 다루지 않아요. 게임 구매 결제는 앱 마켓(구글 플레이 등)이 처리하고, 운영자는 카드 번호 같은 결제 정보를 받지 않아요.</p>
+    <h2 id="1">1. 처리하는 정보와 목적</h2>
+    <h3 id="1-1">1-1. 기기 안에만 저장되는 정보 (수집하지 않음)</h3>
+    <p>게임 진행은 이용자 기기의 브라우저 또는 앱 저장소(IndexedDB · localStorage)에만 저장돼요. <strong>이 정보는 서버로 전송되지 않고, 운영자도 볼 수 없어요.</strong></p>
+    <ul>
+    <li><strong>게임 저장</strong>: 캐릭터 이름(직접 입력) · 외형, 진행 상황, 쉘터 · 창고 · 가방 · 장비, 마지막 위치</li>
+    <li><strong>설정</strong>: 소리 크기, 조작(드래그 조준 · 진동), 그래픽 품질, 마지막 로딩 화면</li>
+    </ul>
+    <p>설정 메뉴의 <strong>저장 내보내기</strong>로 만든 파일은 이용자 기기에 저장되고, 그 파일을 어디에 두거나 보낼지는 이용자가 정해요.</p>
+    <h3 id="1-2">1-2. 익명 클라우드 백업 <span class="tag-soon">준비 중</span></h3>
+    <p>기기를 바꾸거나 앱을 다시 설치해도 이어서 할 수 있도록, 게임 저장을 클라우드에 백업하는 기능을 준비하고 있어요. 이름 · 이메일 · 전화번호는 받지 않아요.</p>
+    <ul>
+    <li><strong>기본은 꺼져 있어요.</strong> 이용자가 <strong>설정 → 클라우드 백업 켜기</strong>를 눌러야 시작돼요.</li>
+    <li>켤 때 <strong>동의 화면이 한 번</strong> 나와요. 수집 항목, 보관 기간(2년), 삭제 방법, 이 방침 링크를 보여 드리고, <strong>동의해야만</strong> 백업이 켜져요. 동의하지 않아도 게임은 그대로 할 수 있어요.</li>
+    <li>동의 화면에서 <strong>만 14세 미만이면 보호자의 동의를 받은 뒤 켜거나, 켜지 말아 달라고</strong> 안내해요(§6).</li>
+    <li>언제든 <strong>설정 → 클라우드 백업 끄기</strong>로 백업을 멈출 수 있어요. 끄면 그 뒤로는 아무것도 보내지 않아요. 이미 올라간 데이터까지 지우려면 <strong>클라우드 데이터 지우기</strong>를 눌러 주세요.</li>
+    <li>설정 화면에 이용자의 <strong>익명 ID</strong>가 보여요. 문의할 때 이 ID를 알려 주시면 돼요.</li>
+    </ul>
+    <div class="tbl"><table>
+    <thead>
+    <tr>
+    <th>항목</th>
+    <th>내용</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td data-label="항목">수집 항목</td>
+    <td data-label="내용">① 익명 사용자 ID(무작위로 만든 식별 번호) ② 게임 저장 데이터(§1-1의 게임 저장과 같은 내용, 캐릭터 이름 포함) ③ 서비스 이용 과정에서 자동으로 남는 접속 기록(IP 주소, 접속 시각)</td>
+    </tr>
+    <tr>
+    <td data-label="항목">목적</td>
+    <td data-label="내용">기기 변경 · 재설치 시 게임 이어하기, 부정 접근 방지 · 장애 대응</td>
+    </tr>
+    <tr>
+    <td data-label="항목">처리 근거</td>
+    <td data-label="내용">이용자의 동의(켤 때 동의 화면)</td>
+    </tr>
+    <tr>
+    <td data-label="항목">보관 기간</td>
+    <td data-label="내용">이용자가 삭제할 때까지. 단, 마지막 백업 후 <strong>2년</strong> 동안 사용하지 않으면 삭제해요. 접속 기록은 <strong><span class="ph">[N]</span>일</strong> 뒤 자동 삭제돼요</td>
+    </tr>
+    <tr>
+    <td data-label="항목">삭제 방법</td>
+    <td data-label="내용">게임 안 <strong>설정 → 클라우드 데이터 지우기</strong>, 또는 cholybrown@gmail.com으로 요청(§7)</td>
+    </tr>
+    </tbody>
+    </table></div>
+    <p>나중에 구글 계정 로그인을 연결하는 기능이 추가되면, 그때 처리하는 항목(예: 구글 계정 식별자)을 이 방침에 먼저 알려 드릴게요. 구글 계정의 이메일 주소는 저장하지 않을 거예요.</p>
+    <h3 id="1-3">1-3. 버그 신고 (이용자가 직접 보낼 때만)</h3>
+    <p>설정 → <strong>버그 신고</strong>를 누르면 아래 내용이 담긴 글이 화면에 보이고, <strong>복사하기</strong>를 누르면 기기의 클립보드에 복사돼요. 게임이 자동으로 보내지 않아요. 이용자가 직접 붙여 넣어 보낸 경우에만 운영자가 받아요.</p>
+    <div class="tbl"><table>
+    <thead>
+    <tr>
+    <th>줄</th>
+    <th>들어가는 내용</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td data-label="줄">빌드</td>
+    <td data-label="들어가는 내용">게임 버전 표시, 빌드 날짜, 빌드 번호</td>
+    </tr>
+    <tr>
+    <td data-label="줄">시각</td>
+    <td data-label="들어가는 내용">기기의 현재 날짜 · 시각과 시간대(예: +09:00)</td>
+    </tr>
+    <tr>
+    <td data-label="줄">위치</td>
+    <td data-label="들어가는 내용">게임 속 장소 이름과 좌표</td>
+    </tr>
+    <tr>
+    <td data-label="줄">상태</td>
+    <td data-label="들어가는 내용">캐릭터 체력 · 허기 · 갈증 수치</td>
+    </tr>
+    <tr>
+    <td data-label="줄">가방</td>
+    <td data-label="들어가는 내용">사용 중인 칸 수 / 전체 칸 수</td>
+    </tr>
+    <tr>
+    <td data-label="줄">장비</td>
+    <td data-label="들어가는 내용">지금 든 무기 · 방어구의 등급과 이름</td>
+    </tr>
+    <tr>
+    <td data-label="줄">기기</td>
+    <td data-label="들어가는 내용">화면 크기 · 픽셀 배율, 운영체제 종류(Android · iOS 등), 브라우저 이름과 주 버전</td>
+    </tr>
+    <tr>
+    <td data-label="줄">마지막 10초</td>
+    <td data-label="들어가는 내용">직전 10초 동안의 게임 기록: 콘솔 메시지 · 오류 메시지, 화면 알림, 재생된 효과음 이름</td>
+    </tr>
+    <tr>
+    <td data-label="줄">무슨 일</td>
+    <td data-label="들어가는 내용">이용자가 직접 적는 설명</td>
+    </tr>
+    </tbody>
+    </table></div>
+    <ul>
+    <li>캐릭터 이름, 저장 파일 전체, 광고 ID, 전화번호 같은 정보는 들어가지 않아요.</li>
+    <li><strong>목적</strong>: 오류를 재현하고 고치기 위해서만 써요.</li>
+    <li><strong>보관</strong>: 고친 뒤 또는 받은 날부터 1년 안에 지워요.</li>
+    <li>테스트 단톡방 · 이메일처럼 이용자가 고른 경로로 보내면, 그 경로를 운영하는 회사의 개인정보처리방침도 함께 적용돼요.</li>
+    </ul>
+    <h3 id="1-4">1-4. 수집하지 않는 정보</h3>
+    <ul>
+    <li>인앱 결제와 광고가 없어요. 광고 · 결제 · 분석(통계) · 오류 자동 수집 도구를 쓰지 않고, 광고 ID도 읽지 않아요.</li>
+    <li>위치, 연락처, 사진 · 파일, 카메라, 마이크에 접근하지 않아요. 안드로이드에서 쓰는 권한은 <strong>진동</strong>뿐이에요(클라우드 백업이 추가되면 인터넷 연결 권한 포함 — 이 권한은 백업을 켰을 때만 개인정보 전송에 쓰여요).</li>
+    <li>쿠키를 쓰지 않아요.</li>
+    </ul>
+    <h2 id="2">2. 보관 기간과 파기</h2>
+    <ul>
+    <li>기기 안 정보(§1-1): 이용자가 게임을 지우거나 브라우저 사이트 데이터를 지우면 함께 사라져요. <strong>앱을 삭제하면 기기 안 저장도 사라지니 주의해 주세요.</strong></li>
+    <li>클라우드 백업(§1-2) <span class="tag-soon">준비 중</span>: 삭제 요청을 받으면 지체 없이 서버에서 지워요. 백업용 사본이 있으면 서비스 제공 업체의 백업 주기에 따라 일정 기간 뒤 함께 지워져요.</li>
+    <li>버그 신고(§1-3): 위 표의 보관 기간이 지나면 메시지 · 메일을 지워요.</li>
+    <li>전자 파일은 복구할 수 없는 방법으로 지워요.</li>
+    </ul>
+    <h2 id="3-3">3. 제3자 제공</h2>
+    <p>운영자는 이용자의 개인정보를 제3자에게 <strong>제공하지 않아요</strong>. 법령에 따라 수사기관 등이 정해진 절차로 요구하는 경우만 예외예요.</p>
+    <h2 id="4">4. 처리 위탁 <span class="tag-soon">준비 중</span></h2>
+    <p>클라우드 백업을 위해 아래 업체에 데이터 보관을 맡겨요.</p>
+    <div class="tbl"><table>
+    <thead>
+    <tr>
+    <th>받는 곳</th>
+    <th>맡기는 일</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td data-label="받는 곳">Supabase, Inc.</td>
+    <td data-label="맡기는 일">익명 계정 발급, 클라우드 백업 데이터 저장 · 관리</td>
+    </tr>
+    </tbody>
+    </table></div>
+    <h2 id="5">5. 국외 이전 <span class="tag-soon">준비 중</span></h2>
+    <p>클라우드 백업 데이터는 <strong>대한민국(서울) 리전</strong> 서버에 저장할 예정이에요. 다만 서비스 제공 업체가 미국 법인이라 운영 · 기술 지원 과정에서 국외에서 접근할 수 있어, 아래와 같이 알려 드려요.</p>
+    <div class="tbl"><table>
+    <thead>
+    <tr>
+    <th>항목</th>
+    <th>내용</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td data-label="항목">이전받는 자</td>
+    <td data-label="내용">Supabase, Inc. (개인정보 문의: <a href="https://supabase.com/privacy">https://supabase.com/privacy</a>)</td>
+    </tr>
+    <tr>
+    <td data-label="항목">이전 국가</td>
+    <td data-label="내용">미국 (저장 위치: 대한민국 서울 리전)</td>
+    </tr>
+    <tr>
+    <td data-label="항목">이전 항목</td>
+    <td data-label="내용">익명 사용자 ID, 게임 저장 데이터, 접속 기록</td>
+    </tr>
+    <tr>
+    <td data-label="항목">이전 시기 · 방법</td>
+    <td data-label="내용">이용자가 클라우드 백업을 켠 뒤 백업이 실행될 때, 암호화된 네트워크(HTTPS)로 전송</td>
+    </tr>
+    <tr>
+    <td data-label="항목">목적 · 보관 기간</td>
+    <td data-label="내용">§1-2와 같음</td>
+    </tr>
+    <tr>
+    <td data-label="항목">거부 방법</td>
+    <td data-label="내용">클라우드 백업을 켜지 않거나(기본값), 켠 뒤 <strong>설정 → 클라우드 백업 끄기</strong>를 누르면 돼요. 거부해도 기기 안 저장으로 게임을 그대로 할 수 있어요</td>
+    </tr>
+    </tbody>
+    </table></div>
+    <h2 id="6-14">6. 만 14세 미만 아동</h2>
+    <p>게임은 나이를 묻지 않고, 클라우드 백업을 켜지 않으면 어떤 개인정보도 받지 않아요. 클라우드 백업은 기본으로 꺼져 있어요.</p>
+    <ul>
+    <li>만 14세 미만 아동이 클라우드 백업을 쓰려면 <strong>법정대리인(보호자)의 동의</strong>가 필요해요 <span class="tag-soon">준비 중</span>.</li>
+    <li>백업을 켤 때 나오는 동의 화면에서 "<strong>만 14세 미만이면 보호자에게 먼저 동의를 받은 뒤 켜거나, 켜지 말아 주세요</strong>"라고 안내해요. 보호자 동의 없이는 켜지 말아 주세요.</li>
+    <li>보호자 동의 없이 만 14세 미만 아동의 정보가 수집된 사실을 알게 되면 바로 지워요.</li>
+    <li>보호자는 §7의 방법으로 아동 정보의 열람 · 삭제를 요청하거나, 아동의 기기에서 <strong>설정 → 클라우드 데이터 지우기</strong>를 눌러 바로 지울 수 있어요.</li>
+    </ul>
+    <h2 id="7">7. 이용자의 권리와 행사 방법</h2>
+    <p>이용자(만 14세 미만이면 보호자)는 언제든 자기 정보의 <strong>열람 · 정정 · 삭제 · 처리 정지</strong>를 요청할 수 있어요.</p>
+    <ul>
+    <li>기기 안 정보: 이용자가 직접 지울 수 있어요(앱 삭제, 또는 브라우저의 사이트 데이터 삭제).</li>
+    <li>클라우드 백업 <span class="tag-soon">준비 중</span>: 게임 안 <strong>설정 → 클라우드 데이터 지우기</strong>로 바로 지울 수 있어요. 백업만 멈추려면 <strong>설정 → 클라우드 백업 끄기</strong>를 눌러요. 게임을 이미 지웠다면 cholybrown@gmail.com으로 요청해 주세요. 메일에 게임 설정 화면에 보이는 <strong>익명 ID</strong>를 적어 주시면 빨리 찾을 수 있어요.</li>
+    <li>요청을 받으면 10일 안에 처리하고 결과를 알려 드려요.</li>
+    </ul>
+    <h2 id="8">8. 안전하게 지키기 위한 조치 <span class="tag-soon">준비 중</span></h2>
+    <ul>
+    <li>모든 전송은 HTTPS로 암호화해요.</li>
+    <li>데이터베이스는 각 익명 계정이 <strong>자기 데이터만</strong> 읽고 쓸 수 있게 접근을 제한해요.</li>
+    <li>관리 권한은 운영자 한 명으로 제한하고, 관리 계정은 2단계 인증을 써요.</li>
+    </ul>
+    <h2 id="9">9. 이 안내 사이트에 대해</h2>
+    <p>지금 보고 계신 안내 사이트는 GitHub Pages(GitHub, Inc.)에서 제공되고, 글꼴은 Google Fonts에서 불러와요. 이 과정에서 각 회사가 접속 기록(IP 주소 등)을 처리할 수 있으며, 그 처리는 각 회사의 개인정보처리방침을 따라요. 운영자는 이 사이트에서 따로 정보를 수집하지 않아요.</p>
+    <h2 id="10">10. 개인정보 보호책임자 · 문의</h2>
+    <div class="tbl"><table>
+    <thead>
+    <tr>
+    <th>항목</th>
+    <th>내용</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td data-label="항목">운영자</td>
+    <td data-label="내용">EssenceAd(에센스애드)</td>
+    </tr>
+    <tr>
+    <td data-label="항목">개인정보 보호책임자</td>
+    <td data-label="내용">EssenceAd 대표</td>
+    </tr>
+    <tr>
+    <td data-label="항목">연락처</td>
+    <td data-label="내용">cholybrown@gmail.com</td>
+    </tr>
+    </tbody>
+    </table></div>
+    <p>개인정보 침해에 대한 상담이나 신고는 아래 기관에도 할 수 있어요.</p>
+    <ul>
+    <li>개인정보침해신고센터: <a href="https://privacy.kisa.or.kr">privacy.kisa.or.kr</a> / 국번 없이 118</li>
+    <li>개인정보분쟁조정위원회: <a href="https://www.kopico.go.kr">www.kopico.go.kr</a> / 1833-6972</li>
+    <li>대검찰청 사이버수사과: <a href="https://www.spo.go.kr">www.spo.go.kr</a> / 국번 없이 1301</li>
+    <li>경찰청 사이버수사국: <a href="https://ecrm.police.go.kr">ecrm.police.go.kr</a> / 국번 없이 182</li>
+    </ul>
+    <h2 id="11">11. 방침의 변경</h2>
+    <p>이 방침이 바뀌면 시행 7일 전부터 이 페이지와 게임 안 공지로 알려 드려요. 수집 항목이 늘어나는 등 이용자에게 중요한 변경은 30일 전에 알려 드려요.</p>
+    <ul>
+    <li>시행일: <span class="ph">[앱 첫 배포일]</span></li>
+    </ul>
+  </article>
+</main>
+<footer class="foot">
+  <p>© 2026 EssenceAd · Clockfall</p>
+  <p><a href="../">소개</a> · <a href="../testers/">테스터 설치</a> · <a href="./">개인정보처리방침</a> · <a href="./en.html">Privacy Policy</a></p>
+</footer>
+</body>
+</html>
