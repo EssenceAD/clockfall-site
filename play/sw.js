@@ -85,6 +85,21 @@ self.addEventListener('fetch', (e) => {
     );
     return;
   }
+  // 목록 파일(zone-manifest · models.json · 소리 목록 · precache)은 네트워크 먼저 — 배포 뒤 옛 목록이 남아 새 파일과 어긋나지 않게(형 10-21 치명 1)
+  if (/\.json$/.test(new URL(req.url).pathname)) {
+    e.respondWith(
+      (async () => {
+        try {
+          const res = await fetch(req, { cache: 'no-store' });
+          if (res.ok) (await caches.open(cacheName())).put(req, res.clone());
+          return res;
+        } catch {
+          return (await caches.match(req, { ignoreSearch: true })) || Response.error();
+        }
+      })(),
+    );
+    return;
+  }
   e.respondWith(
     (async () => {
       const hit = await caches.match(req, { ignoreSearch: true });
