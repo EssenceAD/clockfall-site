@@ -4,9 +4,10 @@ Meshy에서 내보낸 GLB. 텍스처 포함(단일 파일). 폴리 약 10K(리�
 
 | 파일 | 내용 | 리그 | 애니메이션 클립 | 비고 |
 |---|---|---|---|---|
-| hero_m.glb | 주인공 남 (20대 초반, 약 3.5등신, A-포즈, 빈손 · 31K 면 · 텍스처 2048) | 이족 · Mixamo 뼈 75개 | Walking, Running, Combat_Stance(전투 대기), Right_Hand_Sword_Slash·Double_Combo_Attack·Triple_Combo_Attack(검/근접 콤보), Heavy_Hammer_Swing(둔기), Thrust_Slash(창 찌르기), Charged_Slash(차지 베기), Basic_Jump(점프), Cowboy_Quick_Draw_Shooting(사격, 7.3초 — 발사 구간만 잘라 쓸 것), Run_and_Shoot(이동 사격), Standing_Reload(재장전), Walk_Backward_with_Gun·Walk_Left_with_Gun(조준 중 뒷걸음·옆걸음, 오른쪽은 좌우 반전), Hit_Reaction(피격), Dead(사망), Roll_Dodge(구르기), Collect_Object(줍기/파밍) | 무기 없음 → `mixamorig:RightHand`에 무기 부착 |
-| hero_f.glb | 주인공 여 (20대 초반, 약 3.5등신, A-포즈, 빈손 · 31K 면 · 텍스처 2048) | 이족 · Mixamo 뼈 70개 | hero_m과 동일 19클립 | 무기 없음 → `mixamorig:RightHand`에 무기 부착 |
-| hero_m_hair1~4.glb · hero_f_hair1~4.glb | 헤어 변형(머리카락만 다름 · 31K 면 · 텍스처 2048). hair1 = hero_m/hero_f 복사본. 남: 1 기본 · 2 짧은 크루컷 · 3 탑노트 번+언더컷 · 4 곱슬+주황 반다나 / 여: 1 기본 · 2 앞머리 단발 · 3 긴 땋은 머리 · 4 양쪽 번 | 이족 · Mixamo | hero_m과 동일 19클립(이름 같음 → 모션 공용) | 무기 없음 → `mixamorig:RightHand` |
+| hero_m.glb | 주인공 남 v3 (10-21, 럼블 미니어처 로우폴리 · 머리 1 : 키 4.5 · 눈 1.5m · 키 1.69m · A포즈 · 약 12K 삼각형 · 2K 재굽기 텍스처 · 수염 텍스처 톤 · 시계 · 톱니 버클은 몸 메시에 포함) | 이족 · Mixamo 오토리그(mixamorig 65뼈, 손가락 엄지 · 검지) | 72클립(기존 19 + MX_ 53, 이름 동일) | 무기 없음 → `mixamorig:RightHand`. 재질 7슬롯 MI_skin · MI_leather · MI_cream · MI_olive · MI_brass(금속 + 주홍 포인트) · MI_dark · MI_hair(같은 텍스처, 이름만 다름 = 슬롯별 틴트 단위) |
+| hero_f.glb | 주인공 여 v3 (10-21, 남과 같은 규격 · T포즈 바인드 · 스카프 포니테일 · 홀스터 몸에 포함) | 이족 · Blender 자동 가중치(scripts/rig-hero-autoweight.py — Mixamo 오토리그가 이 몸에서 계속 실패) · 뼈 이름 · 구조 = 남과 같음 | 72클립(남과 이름 동일). 팔 벌림 20°(mixamo-retarget ARM_YAW_BY, 총 클립 제외) | 남과 동일 7슬롯 |
+| ~~hero_m_hair1~4 · hero_f_hair1~4~~ | 10-21 폐기(형 09:31: 헤어 분리 · 커마 전부 폐기, 남녀 각 1모델). 원본 · 압축본 · 마스크 삭제 | | | |
+| marker_arrow.glb · marker_exclaim.glb | 목표 마커(맥스 10-21 · 형 11:51): 황동 톱니 테(지름 0.4m, 톱니 12) + 버밀리언 에나멜 화살표(아래 향함) / 느낌표 변형. 원점 = 화살표 끝 0.1m 아래(대상 머리 위 기준점), 정면 +Z(앞뒤 같은 모양) — y축 빌보드 권장. 재질 MI_brass · MI_enamel · MI_ink(단색). 약 750 삼각형 | 없음(노드) | `bob` 1.5초 루프(위아래 ±0.03m + 톱니 테만 30° 회전 = 톱니 1칸, 이음매 없음) | 로봇 머리 위 · 목표 오브젝트 위 공용. 만든 스크립트 scripts/build-target-marker.py |
 | enemy_skeleton.glb | 해골 병사 (칼+방패) | 이족 · Mixamo 뼈 57개 | Walking, Running, Stumble_Walk(비틀 걷기 — 해골 기본 걷기 추천), Combat_Stance, Right_Hand_Sword_Slash, Double_Combo_Attack, Hit_Reaction, Dead | 무기·방패가 모델에 붙어 있음 |
 | enemy_knight.glb | 기사 (양손검) | 이족 · Mixamo 뼈 52개 | Walking, Running, Combat_Stance, Charged_Slash, Triple_Combo_Attack, Hit_Reaction, Dead | 검이 모델에 붙어 있음 |
 | enemy_crossbowman.glb | 석궁병 (석궁 내린 자세) | 이족 · Mixamo 뼈 51개 | Walking, Running, Combat_Stance, Archery_Shot(사격, 5초 — 발사 구간만), Standing_Reload, Hit_Reaction, Dead | 석궁이 모델에 붙어 있음 |
@@ -137,5 +138,5 @@ Meshy에서 내보낸 GLB. 텍스처 포함(단일 파일). 폴리 약 10K(리�
 - 재료 · 소모품 데이터 키 = 파일 이름(`mat_<키>`, `cons_<키>`). `tests/catalog.test.ts`가 맞는지 검사.
 
 ## 커마 헤어 · 머리색 · 피부색(2026-10-19 개정, 명세 2판 §3-1)
-- 헤어 = 머리카락만 다른 캐릭터 GLB 통째: `hero_m_hair1~4.glb` · `hero_f_hair1~4.glb`(뼈 구조 · 클립 이름 동일 → 모션 공용). 넣고 `npm run models:build` 하면 생성 화면 헤어 화살표에 자동으로 뜬다(없으면 기본 몸 1종). 게임은 고른 1개만 받는다.
-- 머리색 8 · 피부색 6: `models:build`가 hero_*마다 `public/models/masks/{이름}.png`(R 머리 · G 피부) + `.json`(기준색)을 만든다(scripts/build-masks.mjs). 기준색이 틀리면 거기 `OVERRIDE`. 점검: 개발 서버 `tools/tint.html?m=hero_m_hair2`.
+- (폐기 10-21) 헤어 변형 · 머리색 · 피부색 커마 없음. 주인공은 hero_m · hero_f 2개뿐, 얼굴은 텍스처에 그려져 있어 `models:build`가 얼굴 데칼 · 마스크를 붙이지 않는다(옛 v1 다시 빌드할 때만 `HERO_DECAL=1`). 원본 · 리그 · 재굽기 텍스처는 `assets_src/models/hero_v3/`.
+- 클립 다시 붙이기: `HERO_DIR=assets_src/models HEROES=hero_m,hero_f node scripts/mixamo-retarget.mjs <클립 폴더 | 클립 든 glb>` (원본 클립 = hero_v3/hero_m.glb 안 72개).

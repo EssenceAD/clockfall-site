@@ -2,145 +2,325 @@
  {
   "id": "m_wakeup",
   "file": "voice/m_wakeup.ogg",
-  "duration": 2.27,
+  "duration": 2.18,
   "script": "H01",
   "what": "깨어남 \"으… 어…\"",
-  "use": "첫 5분 0:00"
+  "use": "첫 5분 0:00",
+  "gain": 0
  },
  {
   "id": "m_attack_1",
   "file": "voice/m_attack_1.ogg",
-  "duration": 0.33,
+  "duration": 0.28,
   "script": "H02_a",
   "what": "근접 기합 \"흡!\"",
-  "use": "둔기 · 검 1타"
+  "use": "둔기 · 검 1타",
+  "gain": 0
  },
  {
   "id": "m_attack_2",
   "file": "voice/m_attack_2.ogg",
-  "duration": 0.43,
+  "duration": 0.37,
   "script": "H02_b",
   "what": "근접 기합 \"하!\"",
-  "use": "2타"
+  "use": "2타",
+  "gain": 0
  },
  {
   "id": "m_attack_3",
   "file": "voice/m_attack_3.ogg",
-  "duration": 0.31,
+  "duration": 0.26,
   "script": "H02_c",
   "what": "근접 기합 \"읏!\"",
-  "use": "3타(가벼운 쪽)"
+  "use": "3타(가벼운 쪽)",
+  "gain": 0
  },
  {
   "id": "m_heavy",
   "file": "voice/m_heavy.ogg",
-  "duration": 0.69,
+  "duration": 0.58,
   "script": "H03",
   "what": "큰 한 방 \"얍!\"",
-  "use": "3연타 마지막"
+  "use": "3연타 마지막",
+  "gain": 0
  },
  {
   "id": "m_hurt_1",
   "file": "voice/m_hurt_1.ogg",
-  "duration": 0.42,
+  "duration": 0.32,
   "script": "H04_a",
   "what": "피격 \"윽\"",
-  "use": "가벼운 피격"
+  "use": "가벼운 피격",
+  "gain": 0
  },
  {
   "id": "m_hurt_2",
   "file": "voice/m_hurt_2.ogg",
-  "duration": 0.34,
+  "duration": 0.25,
   "script": "H04_b",
   "what": "피격 \"큭\"",
-  "use": "가벼운 피격"
+  "use": "가벼운 피격",
+  "gain": 0
  },
  {
   "id": "m_hurt_big",
   "file": "voice/m_hurt_big.ogg",
-  "duration": 1.04,
+  "duration": 0.93,
   "script": "H05",
   "what": "큰 피격 \"으아악!\"",
-  "use": "체력 30% 아래 피격"
+  "use": "체력 30% 아래 피격",
+  "gain": 0
  },
  {
   "id": "m_roll",
   "file": "voice/m_roll.ogg",
-  "duration": 0.32,
+  "duration": 0.26,
   "script": "H06",
   "what": "구르기 \"흣!\"",
-  "use": "구르기"
+  "use": "구르기",
+  "gain": 0
  },
  {
   "id": "m_death",
   "file": "voice/m_death.ogg",
-  "duration": 2.17,
+  "duration": 2.09,
   "script": "H07",
   "what": "사망 \"아… 안 돼…\"",
-  "use": "쓰러짐(가방 잃을 때)"
+  "use": "쓰러짐(가방 잃을 때)",
+  "gain": 0
  },
  {
   "id": "m_lift",
   "file": "voice/m_lift.ogg",
-  "duration": 1.2,
+  "duration": 1.1,
   "script": "H08",
   "what": "들기 \"흐읏!\"",
-  "use": "채집 마무리 · 나무 쓰러뜨림"
+  "use": "채집 마무리 · 나무 쓰러뜨림",
+  "gain": 0
  },
  {
   "id": "m_surprise",
   "file": "voice/m_surprise.ogg",
-  "duration": 0.43,
+  "duration": 0.33,
   "script": "H09",
   "what": "작은 놀람 \"어?\"",
-  "use": "성벽 조각 · 첫 째깍돌"
+  "use": "성벽 조각 · 첫 째깍돌",
+  "gain": 0
  },
  {
   "id": "m_surprise_big",
   "file": "voice/m_surprise_big.ogg",
-  "duration": 1.58,
+  "duration": 1.5,
   "script": "H10",
   "what": "큰 놀람 \"뭐야…\"",
-  "use": "네온 간판 처음"
+  "use": "네온 간판 처음",
+  "gain": 0
  },
  {
   "id": "m_relief",
   "file": "voice/m_relief.ogg",
-  "duration": 0.49,
+  "duration": 0.42,
   "script": "H11",
   "what": "안도 \"후우…\"",
-  "use": "쉘터 귀환 · 수면 전"
+  "use": "쉘터 귀환 · 수면 전",
+  "gain": 0
  },
  {
   "id": "m_hungry",
   "file": "voice/m_hungry.ogg",
-  "duration": 2.52,
+  "duration": 2.49,
   "script": "H12",
   "what": "허기 \"배고파…\"",
-  "use": "허기 30% 아래(가끔)"
+  "use": "허기 30% 아래(가끔)",
+  "gain": 0
  },
  {
   "id": "m_cold",
   "file": "voice/m_cold.ogg",
-  "duration": 3.05,
+  "duration": 2.97,
   "script": "H13",
   "what": "추위 \"으으… 춥다\"",
-  "use": "호수(나중 맵)"
+  "use": "호수(나중 맵)",
+  "gain": 0
  },
  {
   "id": "m_run_breath",
   "file": "voice/m_run_breath.ogg",
-  "duration": 3.92,
+  "duration": 3.53,
   "script": "H14",
   "what": "달리기 숨 \"하, 하, 하\"",
-  "use": "10초 루프용"
+  "use": "10초 루프용",
+  "gain": 0
  },
  {
   "id": "m_eat_hot",
   "file": "voice/m_eat_hot.ogg",
-  "duration": 3.62,
+  "duration": 3.56,
   "script": "H15",
   "what": "뜨거운 것 \"아 뜨거워\"",
-  "use": "구운 고기 먹기"
+  "use": "구운 고기 먹기",
+  "gain": 0
+ },
+ {
+  "id": "f_wakeup",
+  "file": "voice/f_wakeup.ogg",
+  "duration": 2.23,
+  "script": "H01",
+  "what": "깨어남 \"으… 어…\"",
+  "use": "첫 5분 0:00",
+  "gain": 0
+ },
+ {
+  "id": "f_attack_1",
+  "file": "voice/f_attack_1.ogg",
+  "duration": 0.27,
+  "script": "H02_a",
+  "what": "근접 기합 \"흡!\"",
+  "use": "둔기 · 검 1타",
+  "gain": 0
+ },
+ {
+  "id": "f_attack_2",
+  "file": "voice/f_attack_2.ogg",
+  "duration": 0.34,
+  "script": "H02_b",
+  "what": "근접 기합 \"하!\"",
+  "use": "2타",
+  "gain": 0
+ },
+ {
+  "id": "f_attack_3",
+  "file": "voice/f_attack_3.ogg",
+  "duration": 0.27,
+  "script": "H02_c",
+  "what": "근접 기합 \"읏!\"",
+  "use": "3타(가벼운 쪽)",
+  "gain": 0
+ },
+ {
+  "id": "f_heavy",
+  "file": "voice/f_heavy.ogg",
+  "duration": 0.49,
+  "script": "H03",
+  "what": "큰 한 방 \"얍!\"",
+  "use": "3연타 마지막",
+  "gain": 0
+ },
+ {
+  "id": "f_hurt_1",
+  "file": "voice/f_hurt_1.ogg",
+  "duration": 0.25,
+  "script": "H04_a",
+  "what": "피격 \"윽\"",
+  "use": "가벼운 피격",
+  "gain": 0
+ },
+ {
+  "id": "f_hurt_2",
+  "file": "voice/f_hurt_2.ogg",
+  "duration": 0.3,
+  "script": "H04_b",
+  "what": "피격 \"큭\"",
+  "use": "가벼운 피격",
+  "gain": 0
+ },
+ {
+  "id": "f_hurt_big",
+  "file": "voice/f_hurt_big.ogg",
+  "duration": 0.65,
+  "script": "H05",
+  "what": "큰 피격 \"으아악!\"",
+  "use": "체력 30% 아래 피격",
+  "gain": 0
+ },
+ {
+  "id": "f_roll",
+  "file": "voice/f_roll.ogg",
+  "duration": 0.28,
+  "script": "H06",
+  "what": "구르기 \"흣!\"",
+  "use": "구르기",
+  "gain": 0
+ },
+ {
+  "id": "f_death",
+  "file": "voice/f_death.ogg",
+  "duration": 2.46,
+  "script": "H07",
+  "what": "사망 \"아… 안 돼…\"",
+  "use": "쓰러짐(가방 잃을 때)",
+  "gain": 0
+ },
+ {
+  "id": "f_lift",
+  "file": "voice/f_lift.ogg",
+  "duration": 0.79,
+  "script": "H08",
+  "what": "들기 \"흐읏!\"",
+  "use": "채집 마무리 · 나무 쓰러뜨림",
+  "gain": 4
+ },
+ {
+  "id": "f_surprise",
+  "file": "voice/f_surprise.ogg",
+  "duration": 0.23,
+  "script": "H09",
+  "what": "작은 놀람 \"어?\"",
+  "use": "성벽 조각 · 첫 째깍돌",
+  "gain": 0
+ },
+ {
+  "id": "f_surprise_big",
+  "file": "voice/f_surprise_big.ogg",
+  "duration": 2.11,
+  "script": "H10",
+  "what": "큰 놀람 \"뭐야…\"",
+  "use": "네온 간판 처음",
+  "gain": 0
+ },
+ {
+  "id": "f_relief",
+  "file": "voice/f_relief.ogg",
+  "duration": 0.66,
+  "script": "H11",
+  "what": "안도 \"후우…\"",
+  "use": "쉘터 귀환 · 수면 전",
+  "gain": 0
+ },
+ {
+  "id": "f_hungry",
+  "file": "voice/f_hungry.ogg",
+  "duration": 3.27,
+  "script": "H12",
+  "what": "허기 \"배고파…\"",
+  "use": "허기 30% 아래(가끔)",
+  "gain": 0
+ },
+ {
+  "id": "f_cold",
+  "file": "voice/f_cold.ogg",
+  "duration": 2.42,
+  "script": "H13",
+  "what": "추위 \"으으… 춥다\"",
+  "use": "호수(나중 맵)",
+  "gain": 0
+ },
+ {
+  "id": "f_run_breath",
+  "file": "voice/f_run_breath.ogg",
+  "duration": 3.51,
+  "script": "H14",
+  "what": "달리기 숨 \"하, 하, 하\"",
+  "use": "10초 루프용",
+  "gain": 0
+ },
+ {
+  "id": "f_eat_hot",
+  "file": "voice/f_eat_hot.ogg",
+  "duration": 1.08,
+  "script": "H15",
+  "what": "뜨거운 것 \"아 뜨거워\"",
+  "use": "구운 고기 먹기",
+  "gain": 0
  }
 ]

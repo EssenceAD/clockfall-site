@@ -1,0 +1,229 @@
+{
+  "tracks": [
+    {
+      "id": "shelter",
+      "file": "music/01_shelter_a.ogg",
+      "loopStart": 45.465,
+      "loopEnd": 155.0922
+    },
+    {
+      "id": "title",
+      "file": "music/02_title_a.ogg"
+    },
+    {
+      "id": "first_night",
+      "file": "music/03_night_a.ogg",
+      "loopStart": 20.271,
+      "loopEnd": 130.3581
+    },
+    {
+      "id": "night",
+      "file": "music/03_night_a.ogg",
+      "loopStart": 20.271,
+      "loopEnd": 130.3581
+    },
+    {
+      "id": "jungle",
+      "file": "music/04_jungle_a.ogg",
+      "loopStart": 12.3125,
+      "loopEnd": 165.331
+    },
+    {
+      "id": "town",
+      "file": "music/05_town_a.ogg",
+      "loopStart": 47.0607,
+      "loopEnd": 153.3746
+    },
+    {
+      "id": "clocktower",
+      "file": "music/06_tower_a.ogg",
+      "loopStart": 33.7622,
+      "loopEnd": 129.6274
+    },
+    {
+      "id": "rift",
+      "file": "music/07_rift_a.ogg",
+      "loopStart": 33.9253,
+      "loopEnd": 98.9376
+    },
+    {
+      "id": "title_quiet",
+      "file": "music/08_title_quiet.ogg",
+      "loopStart": 17.8639,
+      "loopEnd": 70.1678
+    },
+    {
+      "id": "lake",
+      "file": "music/09_lake_a.ogg",
+      "loopStart": 35.2957,
+      "loopEnd": 145.9721
+    }
+  ],
+  "detail": {
+    "01_shelter_a": {
+      "file": "01_shelter_a.ogg",
+      "tempo": 70.52,
+      "src_duration": 180.0,
+      "trim_start": 0.0,
+      "fade_start_src": 175.24,
+      "loop": {
+        "start": 45.465,
+        "end": 155.0922,
+        "bars": 32.21,
+        "match_after": 0.834,
+        "match_before": 0.774
+      },
+      "duration": 155.092,
+      "lufs_src": -15.9,
+      "lufs": -16.0,
+      "true_peak": -4.0,
+      "limiter": false
+    },
+    "02_title_a": {
+      "file": "02_title_a.ogg",
+      "tempo": 99.23,
+      "src_duration": 89.48,
+      "trim_start": 0.0,
+      "fade_start_src": 86.33,
+      "loop": null,
+      "duration": 88.32,
+      "lufs_src": -15.1,
+      "lufs": -16.1,
+      "true_peak": -4.0,
+      "limiter": false
+    },
+    "03_night_a": {
+      "file": "03_night_a.ogg",
+      "tempo": 109.03,
+      "src_duration": 149.68,
+      "trim_start": 0.0,
+      "fade_start_src": 145.19,
+      "loop": {
+        "start": 20.271,
+        "end": 130.3581,
+        "bars": 50.01,
+        "match_after": 0.894,
+        "match_before": 0.92
+      },
+      "duration": 130.358,
+      "lufs_src": -16.5,
+      "lufs": -16.0,
+      "true_peak": -3.7,
+      "limiter": false
+    },
+    "04_jungle_a": {
+      "file": "04_jungle_a.ogg",
+      "tempo": 95.77,
+      "src_duration": 179.56,
+      "trim_start": 0.111,
+      "fade_start_src": 173.92,
+      "loop": {
+        "start": 12.3125,
+        "end": 165.331,
+        "bars": 61.06,
+        "match_after": 0.813,
+        "match_before": 0.838
+      },
+      "duration": 165.331,
+      "lufs_src": -15.2,
+      "lufs": -16.0,
+      "true_peak": -4.5,
+      "limiter": false
+    },
+    "05_town_a": {
+      "file": "05_town_a.ogg",
+      "tempo": 108.39,
+      "src_duration": 179.2,
+      "trim_start": 0.123,
+      "fade_start_src": 172.04,
+      "loop": {
+        "start": 47.0607,
+        "end": 153.3746,
+        "bars": 48.01,
+        "match_after": 0.834,
+        "match_before": 0.84
+      },
+      "duration": 153.375,
+      "lufs_src": -16.7,
+      "lufs": -16.0,
+      "true_peak": -4.2,
+      "limiter": false
+    },
+    "06_tower_a": {
+      "file": "06_tower_a.ogg",
+      "tempo": 100.15,
+      "src_duration": 148.8,
+      "trim_start": 0.0,
+      "fade_start_src": 146.68,
+      "loop": {
+        "start": 33.7622,
+        "end": 129.6274,
+        "bars": 40.01,
+        "match_after": 0.8,
+        "match_before": 0.859
+      },
+      "duration": 129.627,
+      "lufs_src": -15.6,
+      "lufs": -16.1,
+      "true_peak": -3.6,
+      "limiter": false
+    },
+    "07_rift_a": {
+      "file": "07_rift_a.ogg",
+      "tempo": 119.96,
+      "src_duration": 119.84,
+      "trim_start": 0.0,
+      "fade_start_src": 118.07,
+      "loop": {
+        "start": 33.9253,
+        "end": 98.9376,
+        "bars": 32.5,
+        "match_after": 0.824,
+        "match_before": 0.807
+      },
+      "duration": 98.938,
+      "lufs_src": -15.2,
+      "lufs": -16.0,
+      "true_peak": -5.2,
+      "limiter": false
+    },
+    "08_title_quiet": {
+      "file": "08_title_quiet.ogg",
+      "tempo": 135.71,
+      "src_duration": 91.6,
+      "trim_start": 0.018,
+      "fade_start_src": 91.58,
+      "loop": {
+        "start": 17.8639,
+        "end": 70.1678,
+        "bars": 29.58,
+        "match_after": 0.673,
+        "match_before": 0.784
+      },
+      "duration": 70.168,
+      "lufs_src": -16.0,
+      "lufs": -16.0,
+      "true_peak": -2.9,
+      "limiter": false
+    },
+    "09_lake_a": {
+      "file": "09_lake_a.ogg",
+      "tempo": 130.11,
+      "src_duration": 179.64,
+      "trim_start": 0.0,
+      "fade_start_src": 175.01,
+      "loop": {
+        "start": 35.2957,
+        "end": 145.9721,
+        "bars": 60.0,
+        "match_after": 0.724,
+        "match_before": 0.84
+      },
+      "duration": 145.972,
+      "lufs_src": -15.6,
+      "lufs": -16.0,
+      "true_peak": -4.5,
+      "limiter": false
+    }
+  }
+}
