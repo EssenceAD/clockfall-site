@@ -1,1 +1,0 @@
-import{r as e}from"./main-tmdt9TZe.js";var t=class extends e{async show(e){}async hide(e){}};export{t as SplashScreenWeb};
