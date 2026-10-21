@@ -1025,6 +1025,75 @@
     18
    ],
    "use": "재료 아이콘 3개 아래 깔 작은 종이 띠. 양끝 찢긴 면 고정, 가운데 늘리기 (팝업북 월드맵 전용 종이 키트, 맥스 10-21)"
+  },
+  "gauge_sm_track": {
+   "file": "gauge/gauge_sm_track.png",
+   "w": 240,
+   "h": 32,
+   "dp": [
+    120,
+    16
+   ],
+   "slice": [
+    0,
+    12,
+    0,
+    12
+   ],
+   "sliceDp": [
+    0,
+    6,
+    0,
+    6
+   ],
+   "derivedFrom": "dev_cell_off",
+   "use": "작은 상태 바 홈(허기 · 물 · 체온 · 채집 등). 채움은 안쪽 2dp 띄움"
+  },
+  "gauge_sm_fill": {
+   "file": "gauge/gauge_sm_fill.png",
+   "w": 232,
+   "h": 24,
+   "dp": [
+    116,
+    12
+   ],
+   "slice": [
+    0,
+    9,
+    0,
+    9
+   ],
+   "sliceDp": [
+    0,
+    4.5,
+    0,
+    4.5
+   ],
+   "derivedFrom": "dev_cell_on",
+   "use": "작은 상태 바 채움(보통, 청록). 폭 = (트랙 − 4dp) × 비율, 9dp 미만이면 숨김"
+  },
+  "gauge_sm_fill_low": {
+   "file": "gauge/gauge_sm_fill_low.png",
+   "w": 232,
+   "h": 24,
+   "dp": [
+    116,
+    12
+   ],
+   "slice": [
+    0,
+    9,
+    0,
+    9
+   ],
+   "sliceDp": [
+    0,
+    4.5,
+    0,
+    4.5
+   ],
+   "derivedFrom": "dev_cell_red",
+   "use": "작은 상태 바 채움(낮음 ≤25%, 주홍). 폭 = (트랙 − 4dp) × 비율, 9dp 미만이면 숨김"
   }
  },
  "icons": {
