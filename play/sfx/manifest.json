@@ -1068,5 +1068,60 @@
     "source": "https://opengameart.org/content/ice-breakingshattering + Kenney Impact Sounds",
     "license": "CC0",
     "author": "ignasd, Kenney"
+  },
+  {
+    "id": "end_tower_bell",
+    "file": "sfx/ending/end_tower_bell.ogg",
+    "use": "엔딩 — 시계탑 큰 종(세 번 울림, 한 번에 하나씩) — 낮고 따뜻한 덩~ 긴 꼬리",
+    "category": "ending",
+    "volume": 0.8,
+    "loop": false,
+    "source": "Kenney Impact Sounds + https://opengameart.org/content/bell-dingschimes + https://opengameart.org/content/100-cc0-sfx",
+    "license": "CC0",
+    "author": "Kenney, pwl, rubberduck"
+  },
+  {
+    "id": "end_glass_crack",
+    "file": "sfx/ending/end_glass_crack.ogg",
+    "use": "엔딩 — 하늘 균열이 닫힘 — 유리 금 자글자글 → 작은 팅으로 가라앉음",
+    "category": "ending",
+    "volume": 0.6,
+    "loop": false,
+    "source": "https://opengameart.org/content/ice-breakingshattering + Kenney Impact Sounds + https://opengameart.org/content/100-cc0-sfx",
+    "license": "CC0",
+    "author": "ignasd, Kenney, rubberduck"
+  },
+  {
+    "id": "end_time_resume",
+    "file": "sfx/ending/end_time_resume.ogg",
+    "use": "엔딩 — 시간이 다시 흐름 — 거꾸로 차오르는 휙+태엽 → 1.0초에 부드러운 째깍(이어서 작게 톡 · 째깍)",
+    "category": "ending",
+    "volume": 0.7,
+    "loop": false,
+    "source": "https://opengameart.org/content/wind-hit-time-morph + https://opengameart.org/content/clock-wind-sounds + https://opengameart.org/content/ticking-clock-0",
+    "license": "CC0",
+    "author": "qubodup, bmaczero, antumdeluge"
+  },
+  {
+    "id": "end_ding",
+    "file": "sfx/ending/end_ding.ogg",
+    "use": "엔딩 — 맑고 작은 종 팅(밝지만 찌르지 않게)",
+    "category": "ending",
+    "volume": 0.5,
+    "loop": false,
+    "source": "https://opengameart.org/content/100-cc0-sfx + https://opengameart.org/content/bell-dingschimes",
+    "license": "CC0",
+    "author": "rubberduck, pwl"
+  },
+  {
+    "id": "end_birds_loop",
+    "file": "sfx/ending/end_birds_loop.ogg",
+    "use": "엔딩 — 아침 새소리 루프(시간이 돌아온 뒤 마지막 장면)",
+    "category": "ending",
+    "volume": 0.3,
+    "loop": true,
+    "source": "https://opengameart.org/content/ambient-bird-sounds + https://opengameart.org/content/mild-wind-background-noise",
+    "license": "CC0",
+    "author": "isaiah658, bashar3a"
   }
 ]
